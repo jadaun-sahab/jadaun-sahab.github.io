@@ -28,6 +28,7 @@
      </div>
      <!--------------------------------------------------- navbar --------------------------------------------------->
 
+     <hr>
 
      <!--------------------------------------------------- home --------------------------------------------------->
 
@@ -43,12 +44,17 @@
      </div>
      <!--------------------------------------------------- home --------------------------------------------------->
 
+     <hr>
 
-      <div id="about">
+     <!--------------------------------------------------- about --------------------------------------------------->
+
+
+     <div id="about">
           <h4>Who I AM</h4>
           <div class="section3">
 
-               <p id="user-detail-intro">Hello, This is VIKAS JADAUN Here From ( M.P.) INDIA, i Am a FRONTEND Expert Who Can Create Responsive
+               <p id="user-detail-intro">Hello, This is VIKAS JADAUN Here From ( M.P.) INDIA, i Am a FRONTEND Expert Who
+                    Can Create Responsive
                     Website For All Devices With a Clean Code Using Pure HTML,CSS & JS</p>
                <h2 id="contact-phone">Contact Number- +918305181773</h2>
                <h2 id="contact-email">Email Address - vikasjadaun830@gmail.com</h2>
@@ -56,14 +62,43 @@
                     <a href="https://instagram.com/_jadaun_sahab__?igshid=YmMyMTA2M2Y="><i
                               class="fa-brands fa-instagram"></i></a>
 
-                    <a id="contact-github" href="https://github.com/jadaun-sahab"><i class="fa-brands fa-github-square"></i></a>
-                    <a  id="contact-linkedin"href="https://www.linkedin.com/in/vikas-jadaun-753531243/"><i
+                    <a id="contact-github" href="https://github.com/jadaun-sahab"><i
+                              class="fa-brands fa-github-square"></i></a>
+                    <a id="contact-linkedin" href="https://www.linkedin.com/in/vikas-jadaun-753531243/"><i
                               class="fa-brands fa-linkedin"></i></a>
                </div>
           </div>
      </div>
 
+     <!--------------------------------------------------- about --------------------------------------------------->
+
+
 </body>
-<script src="/index.js"></script>
+<script>let v= document.getElementById("uls")
+     v.style.display="none"
+     
+     function menutoggle(){
+         if(v.style.display=="none"){
+             v.style.display="block"
+         }
+         else{
+             v.style.display="none"
+         }
+     }
+     // ------------------------------------------------------------------
+     
+     let viewmore =document.getElementById("morep");
+     let na=document.getElementById("more");
+     viewmore.style.display="none"
+     function showmore(){
+         if(viewmore.style.display=="none"){
+            na.innerText="View Less"
+             viewmore.style.display="block";
+         }
+         else{
+             na.innerText="View More"
+             viewmore.style.display="none"
+         }
+     }</script>
 
 </html>
