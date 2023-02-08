@@ -323,12 +323,18 @@ display: flex;
 }
 
 .input {
-  margin: 2rem 0;
+  width: 50%;
+  margin: 2rem auto;
   text-decoration: none;
   list-style: none;
 }
-
+#contact-phone, #contact-email{
+  text-align: center;
+color: white;
+}
 .input a {
+  font-size: 3rem;
+  margin: 0 20px;
   text-decoration: none;
   list-style: none;
 }
