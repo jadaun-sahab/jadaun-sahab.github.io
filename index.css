@@ -1,0 +1,71 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+   }
+   
+   body {
+     background: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
+   }
+   
+   .fa-bars {
+     position: fixed;
+     color: white;
+     font-size: 2rem;
+     background-color: rgba(244, 244, 244, 0);
+     margin: 1rem;
+     cursor: pointer;
+   }
+   
+   #nav-menu ul {
+     top: 7rem;
+     position: fixed;
+     z-index: 4;
+     box-shadow: 9px 9px 2px rgb(116, 241, 243), 9px -9px 2px rgb(116, 241, 243);
+     border-radius: 9px;
+     background-color: rgb(0, 0, 0);
+     width: 240px;
+     display: block;
+     height: 70vh;
+   }
+   
+   #nav-menu ul li {
+     border-radius: 10px;
+     margin: 24px 0 24px 20px;
+     padding: 10px 0;
+     list-style: none;
+     transition: all 0.5s;
+   }
+   
+   #nav-menu ul li a {
+     color: white;
+     text-decoration: none;
+     font-size: 2rem;
+     margin: 8px;
+     cursor: pointer;
+   }
+   
+   #nav-menu ul li:hover {
+     background-color: rgb(68, 93, 255);
+     background-color: rgb(0, 255, 247);
+     border-radius: 10px;
+     color: rgb(127, 255, 249);
+     transform: translateX(20px);
+   }
+   
+   #nav-menu ul li a:hover {
+     color: rgb(0, 0, 0);
+   }
+   
+   .fa-house,
+   .fa-phone,
+   .fa-rocket,
+   .fa-address-card,
+   .fa-file-arrow-down,
+   .fa-download,
+   .fa-dice-d20 {
+     margin-right: 14px;
+   }
+   
+   /* <!---------------------------- navbar ends ----------------------------> */
