@@ -2,248 +2,154 @@
 <html lang="en">
 
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <link rel="stylesheet" href="index.css">
-     <link rel="stylesheet" href="/responsive.css">
-     <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
-     <link rel="shortcut icon" href="/image/favicon_io/apple-touch-icon.png" type="image/x-icon">
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="" />
 </head>
 
 <body>
-     <hr>
-     <!--------------------------------------------------- navbar --------------------------------------------------->
-     <div id="nav-menu">
-          <i class="fa-solid fa-bars" onclick="menutoggle()"></i>
-          <ul id="uls" class="nav-link home">
-               <li class="nav-link contact"><a href="/contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>
-               <li class="nav-link skills"><a href="/skills.html"><i class="fa-solid fa-rocket"></i>Skills</a></li>
-               <li class="nav-link projects"><a href="/web.html"><i class="fa-solid fa-dice-d20"></i>Projects</a></li>
-               <li class="nav-link about"><a href="#about"><i class="fa-solid fa-address-card"></i>About</a></li>
-               <li><a href="/resume.html"><i class="fa-solid fa-file-arrow-down"></i>RESUME</a></li>
-          </ul>
-     </div>
-     <!--------------------------------------------------- navbar --------------------------------------------------->
-
-     <hr>
-
-     <!--------------------------------------------------- home --------------------------------------------------->
-
-     <div id="home">
-          <div class="child2">
-               <img class="home-img" src="image/two.jpg" alt="">
-          </div>
-          <div class="child1" id="resume-link-2">
-               <h1 id="user-detail-name">Hey I'M <br> VIKAS JADAUN</h1>
-               <p id="resume-button-2">Full Stack Web Developer</p>
-               <form action="contact.html"><button class="btn">Contact<span>&#8594;</span></button></form>
-          </div>
-     </div>
-     <!--------------------------------------------------- home --------------------------------------------------->
-
-     <hr>
-
-     <!--------------------------------------------------- about --------------------------------------------------->
+    <nav id="nav-menu">
+        <ul>
+            <li><a class="nav-link home" href="#home">HOME</a></li>
+            <li><a class="nav-link about" href="#about">ABOUT</a></li>
+            <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
+            <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
+            <li><a class="nav-link resume" href="#"></a></li>
+        </ul>
+    </nav>
 
 
-     <div id="about">
-          <h4>Who I AM</h4>
-          <div class="section3">
 
-               <p id="user-detail-intro">Hello, This is VIKAS JADAUN Here From ( M.P.) INDIA, i Am a FRONTEND Expert Who
-                    Can Create Responsive
-                    Website For All Devices With a Clean Code Using Pure HTML,CSS & JS</p>
-               
-          </div>
-     </div>
+    <!-------------------- HOME ---------------------->
+    <section id="home">
+        <img src="./image/2.png" class="home-img" alt="#" />
+        <h1 id="user-detail-name">VIKAS JADAUN</h1>
+        <h2 id="user-detail-intro">Full Stack Web Developer </h2>
+    </section>
 
 
-     <!--------------------------------------------------- about --------------------------------------------------->
 
-<hr>
+    <!-------------------- ABOUT ---------------------->
+    <section title="About" id="about" class="about section">
+        <title>About</title>
+        <h1 id="user-detail-name">VIKAS JADAUN</h1>
+        <h2 id="user-detail-intro">I am a Developer who knows HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS, MONGODB,
+            POSTMAN</h2>
+    </section>
 
-     <!-- --------------------------------------------------calender------------------------------------------------- -->
-   
 
 
-     <div id="calender">
-         <h1>My Github Stats</h1>
-         <img id="im" src="/image/calender.jpg" alt="">
-         <hr>
-         <img id="im2"src="/image/coding-streak.jpg" alt="">
-         <div>
-             <img src="/image/github-stats.jpg" alt="">
-             <img src="/image/language.jpg" alt="">
-         </div>
+    <!-------------------- SKILLS ---------------------->
+    <section id="skills">
+        <div class="skills-card">
+            <img class="skills-card-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
+                alt="nodejs.png" />
+            <h5 class="skills-card-name">Node JS</h5>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img"
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edureka.co%2Fblog%2Fexpressjs-tutorial%2F&psig=AOvVaw1Nvd5UopILGcTiRz6_iGyI&ust=1675883715544000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjs-LyPhP0CFQAAAAAdAAAAABAE"
+                alt="express.png" />
+            <h5 class="skills-card-name">Express JS</h5>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="https://www.pngall.com/wp-content/uploads/13/Mongodb-Transparent.png"
+                alt="mongodb.png" />
+            <h5 class="skills-card-name">Mongo DB</h5>
+        </div>
+    </section>
+
+
+
+    <!-------------------- PROJECTS ---------------------->
+    <section id="projects">Projects
         
-     </div>
+        <div class="project-card">
+            <img src="./image/myntra.png" alt="">
+            <title class="project-title">Myntra</title>
+            <p class="project-description">Clone of 
+                </p>
+            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <p class="project-github-link">Github link <a
+                    href="https://github.com/ayushi9797/wiry-measure-2833"></a></p>
+            <p class="project-deployed-link"> Deployed link<a
+                    href="https://lively-blini-b17740.netlify.app/"></a></p>
+        </div>
 
-
-      <!-- --------------------------------------------------calender------------------------------------------------- -->
-
-     <hr>
-
-     <!-- -----------------------------------------------------skills--------------------------------------------------- -->
-<div id="projects"></div>
-     <div id="skills">
-          <div>
-              <h1>E-commerce-website</h1>
-              <a href="https://splendorous-starburst-ff8d63.netlify.app/" target="_blank"><img src="/image/pro1.jpg" alt=""></a>
-              <p>Name:-<a href="https://splendorous-starburst-ff8d63.netlify.app/" target="_blank">FASHION-HUB</a></p>
-              <p><a href="https://github.com/jadaun-sahab/humble-town-2578" target="_blank"><i class="fa-brands fa-github"></i></a></p>
-          </div>
-          <div>
-              <h1>Food-website</h1>
-              <a href="https://frabjous-chebakia-8f266f.netlify.app" target="_blank"><img src="/image/pro2.jpg" alt=""></a>
-              <p>Name:-<a href="https://frabjous-chebakia-8f266f.netlify.app" target="_blank">AVH-PROJECT</a></p>
-              <p><a href="https://github.com/jadaun-sahab/avh-store" target="_blank"><i
-                          class="fa-brands fa-github"></i></a></p>
-          </div>
-          <div>
-              <h1>Gaming-website</h1>
-              <a href="https://eloquent-pastelito-e1b07b.netlify.app" target="_blank"><img src="/image/pro3.jpg" alt=""></a>
-              <p>Name:-<a href="https://eloquent-pastelito-e1b07b.netlify.app" target="_blank">JS-Gaming</a></p>
-              <p><a href="https://github.com/jadaun-sahab/js-gaming" target="_blank"><i class="fa-brands fa-github"></i></a></p>
-          </div>
-          <div>
-              <h1>Landing-Page</h1>
-              <a href="https://gregarious-rabanadas-8efac0.netlify.app/" target="_blank"><img src="/image/pro8.jpg" alt=""></a>
-              <p>Name:-<a href="https://gregarious-rabanadas-8efac0.netlify.app/" target="_blank">Doggers-Website</a></p>
-              <p><a href="https://github.com/jadaun-sahab/doggers-website" target="_blank"><i class="fa-brands fa-github"></i></a></p>
-          </div>
-  
+        <div class="project-card">
+          <img src="./image/myntra.png" alt="">
+          <title class="project-title">Myntra</title>
+          <p class="project-description">Clone of 
+              </p>
+          <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+          <p class="project-github-link">Github link <a
+                  href="https://github.com/ayushi9797/wiry-measure-2833"></a></p>
+          <p class="project-deployed-link"> Deployed link<a
+                  href="https://lively-blini-b17740.netlify.app/"></a></p>
       </div>
+      
+
+      <div class="project-card">
+        <img src="./image/myntra.png" alt="">
+        <title class="project-title">Myntra</title>
+        <p class="project-description">Clone of 
+            </p>
+        <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+        <p class="project-github-link">Github link <a
+                href="https://github.com/ayushi9797/wiry-measure-2833"></a></p>
+        <p class="project-deployed-link"> Deployed link<a
+                href="https://lively-blini-b17740.netlify.app/"></a></p>
+    </div>
 
 
- <!-- -----------------------------------------------------skills--------------------------------------------------- -->
-
- <hr>
-
-      <!--------------------------------------------------- skills --------------------------------------------------->
-
-
-     <div class="sectionskills-1">
-          <div class="skills-child1">
-               <div class="skills skills-card ">
-                    <div class="skills-card-name barjs bar">60%</div>
-                    <div class="skills-card-img name"><img src="/image/javascript.png" alt=""> &nbsp;</div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class="skills-card-name barhtml bar">90%</div>
-                    <div class="skills-card-img name"><img src="/image/html.png" alt=""></div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class="skills-card-name barcss bar">85%</div>
-                    <div class="skills-card-img name"><img src="/image/CSS3_logo.svg.png" alt=""></div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class="skills-card-name barjava bar">40%</div>
-                    <div class="skills-card-img name"><img src="/image/Java.png" alt=""></div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class="skills-card-name barnetlify bar">85%</div>
-                    <div class="skills-card-img name"><img src="/image/netlify.jpg" alt=""></div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class="skills-card-name barspring bar">10%</div>
-                    <div class="skills-card-img name"><img src="/image/spring2.png" alt=""></div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class="skills-card-name bargithub bar">85%</div>
-                    <div class="skills-card-img name"><img src="/image/github..png" alt=""></div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class=" skills-card-namebarspring bar">10%</div>
-                    <div class="skills-card-img name"><img src="/image/MySQL-Logo2.jpg" alt=""></div>
-               </div>
-               <!-- <hr> -->
-               <div class="skills skills-card">
-                    <div class="skills-card-name barjs bar">60%</div>
-                    <div class="skills-card-img name"><img src="/image/git.png" alt=""></div>
-               </div>
-          </div>
-     </div>
-      <!--------------------------------------------------- skills --------------------------------------------------->
-
-      <hr>
-
-     <!--------------------------------------------------- contact --------------------------------------------------->
+    <div class="project-card">
+      <img src="./image/myntra.png" alt="">
+      <title class="project-title">Myntra</title>
+      <p class="project-description">Clone of 
+          </p>
+      <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+      <p class="project-github-link">Github link <a
+              href="https://github.com/ayushi9797/wiry-measure-2833"></a></p>
+      <p class="project-deployed-link"> Deployed link<a
+              href="https://lively-blini-b17740.netlify.app/"></a></p>
+  </div>
+    </section>
 
 
-     <div id="contact">
-          <div class="contact-child-1">
-               <h1>Hi, Let's Have a quick chat <i class="fa-regular fa-comment"></i></h1>
 
-               <div class="email"> <a href="mailto:vikasjadaun830@gmail.com@.com"><i
-                              class="fa-solid fa-paper-plane"></i>Send email</a></div>
-
-               <img id="imghand" src="image/Handshake-lower-res.gif" alt="" width="100px">
-               <img src="image/contactbg1.jpg" alt="">
-
-          </div>
-          <div class="contact-child-2">
-
-               <h1>contact-me</h1>
-               <form action="https://formsubmit.co/vikasjadaun830@gmail.com" method="POST">
-                    <input type="text" name="name" id="name" placeholder="NAME" required>
-                    <input type="email" name="email" id="email" placeholder="EMAIL" required>
-                    <input type="text" name="text" id="msg" placeholder="Your Massage Here">
-                    <button class="btns" type="submit">Submit</button>
-                   
-               </form>
-               <div class="input">
-                    <a href="https://instagram.com/_jadaun_sahab__?igshid=YmMyMTA2M2Y="><i
-                              class="fa-brands fa-instagram"></i></a>
-
-                    <a id="contact-github" href="https://github.com/jadaun-sahab"><i
-                              class="fa-brands fa-github-square"></i></a>
-                    <a id="contact-linkedin" href="https://www.linkedin.com/in/vikas-jadaun-753531243/"><i
-                              class="fa-brands fa-linkedin"></i></a>
-               </div>
-               <h2 id="contact-phone">Contact Number- +918305181773</h2>
-               <h2 id="contact-email">Email Address - vikasjadaun830@gmail.com</h2>
-          </div>
-     </div>
+    <!-------------------- CONTACTS ---------------------->
+    <section id="contact">
+        <h1>Contact</h1>
+        <a id="contact-github" href="https://github.com/ayushi9797">GitHub</a>
+        <a id="contact-linkedin" href="https://www.linkedin.com/in/ayushi-soni-145b28260/">LinkedIn</a>
+        <a id="contact-phone" href="#">Mobile</a>
+        <a id="contact-email" href="soniayushi345@gmail.com">Email</a>
+    </section>
 
 
-     <!--------------------------------------------------- contact --------------------------------------------------->
 
+    <!-------------------- RESUME ---------------------->
+    <section id="resume">
+        <button id="resume-button-1" src="">Resume 1</button>
+        <button id="resume-button-2" src="">Resume 2</button>
+    </section>
+
+
+    <!-------------------- GitHUB ---------------------->
+    <section class="react-activity-calendar">
+        <h1>GitHub React-Activity-Calendar</h1>
+        <img id="github-streak-stats"
+            src="https://github-readme-streak-stats.herokuapp.com?user=ayushi9797&theme=holi-theme&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+            alt="streakstat" />
+        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushi9797"
+            alt="top_languages" />
+        <img id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=ayushi9797&count_private=true" alt="stat-card" />
+    </section>
 </body>
-<!-- <script>let v= document.getElementById("uls")
-     v.style.display="none"
-     
-     function menutoggle(){
-         if(v.style.display=="none"){
-             v.style.display="block"
-         }
-         else{
-             v.style.display="none"
-         }
-     }
-     // ------------------------------------------------------------------
-     
-     let viewmore =document.getElementById("morep");
-     let na=document.getElementById("more");
-     viewmore.style.display="none"
-     function showmore(){
-         if(viewmore.style.display=="none"){
-            na.innerText="View Less"
-             viewmore.style.display="block";
-         }
-         else{
-             na.innerText="View More"
-             viewmore.style.display="none"
-         }
-     }</script> -->
 
 </html>
