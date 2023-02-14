@@ -13,9 +13,7 @@
 <body>
     <div id="menubar" onclick="hamburger()"><i class="fa-solid fa-bars"></i></div>
     <nav id="nav-menu">
-    
         <ul>
-            
             <li><a class="nav-link home" href="#home">HOME</a></li>
             <li><a class="nav-link about" href="#about">ABOUT</a></li>
             <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
@@ -51,7 +49,7 @@
         <title>About</title>
         <h1 id="user-detail-name">VIKAS JADAUN</h1>
         <h2 id="user-detail-intro">Aspiring Full Stack Web Developer, with a Specialization
-            in css and SpringBoot Frameworks and a good grasp of
+            in CSS, SpringBoot, JavaScript and JAVA and a good grasp of
             core java concept. collaborative team player who is
             professional in working on interdisciplinary projects.
             Looking forward to kickstart the career in the IT sector.</h2>
@@ -177,13 +175,13 @@
 
 
 let ham=document.getElementById("nav-menu");
-ham.style.display="none";
+ham.style.display="flex";
 function hamburger(){
-if(ham.style.display==="none"){
-    ham.style.display="block";
+if(ham.style.display==="flex" || ham.style.display==="block"){
+    ham.style.display="none";
 }
 else{
-    ham.style.display="none";
+    ham.style.display="block";
 }
 }
 

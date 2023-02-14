@@ -34,6 +34,7 @@ img {
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
 
 #menubar{
+  /* display: none; */
   font-size: 2rem;
   position: fixed;
   top: 0;
@@ -44,6 +45,7 @@ img {
   padding: 10px;
 }
 #nav-menu {
+  display: flex;
   background-color: var(--secondry-color);
   position: fixed;
   height: 50px;
@@ -51,6 +53,7 @@ img {
 }
 
 #nav-menu ul {
+  width: 100%;
   justify-content: center;
   display: flex;
   padding-top: 10px;
