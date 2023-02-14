@@ -11,7 +11,9 @@
 </head>
 
 <body>
+    <div id="menubar" onclick="hamburger()"><i class="fa-solid fa-bars"></i></div>
     <nav id="nav-menu">
+    
         <ul>
             
             <li><a class="nav-link home" href="#home">HOME</a></li>
@@ -48,8 +50,11 @@
     <section title="About" id="about" class="about section">
         <title>About</title>
         <h1 id="user-detail-name">VIKAS JADAUN</h1>
-        <h2 id="user-detail-intro">Full Stack Web Developer With Good Grasp Of  HTML, CSS, JAVASCRIPT, JAVA, HIBERNET, MYSQL,
-            POSTMAN</h2>
+        <h2 id="user-detail-intro">Aspiring Full Stack Web Developer, with a Specialization
+            in css and SpringBoot Frameworks and a good grasp of
+            core java concept. collaborative team player who is
+            professional in working on interdisciplinary projects.
+            Looking forward to kickstart the career in the IT sector.</h2>
     </section>
 
 
@@ -167,6 +172,19 @@
 <script>
     function theme(){
   document.body.classList.toggle("dark-theme")   
+}
+
+
+
+let ham=document.getElementById("nav-menu");
+ham.style.display="none";
+function hamburger(){
+if(ham.style.display==="none"){
+    ham.style.display="block";
+}
+else{
+    ham.style.display="none";
+}
 }
 
 </script>

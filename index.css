@@ -33,6 +33,16 @@ img {
 
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
 
+#menubar{
+  font-size: 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  color: white;
+  background: #00000074;
+  padding: 10px;
+}
 #nav-menu {
   background-color: var(--secondry-color);
   position: fixed;
