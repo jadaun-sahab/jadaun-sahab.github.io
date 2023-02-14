@@ -1,3 +1,19 @@
+:root {
+  --sixth-color: #ffffff;
+  --primary-color: #ffffff;
+  --secondry-color: #000000;
+  --third-color: #242323;
+  --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
+  --fifth-color: #ff6310;
+}
+
+.dark-theme {
+  --primary-color: #000000;
+  --secondry-color: #ffffff;
+  --third-color: #ffffff;
+  --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
+  --sixth-color: #ff6310;
+}
 @media (max-width:1200px) {}
 
 @media (max-width: 1000px) {}
@@ -37,7 +53,7 @@
   }
   #nav-menu{
     height: 250px;
-    background-color: #000000;
+    background-color: var(--secondry-color);
   }
   #nav-menu ul {
     width: 100%;
@@ -45,6 +61,7 @@
     display: block;
     position: fixed;
   }
+  
 }
 
 @media (max-width:600px) {
