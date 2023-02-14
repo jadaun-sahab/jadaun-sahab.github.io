@@ -11,7 +11,7 @@ body {
 }
 
 :root {
-  
+  --sixth-color: #ffffff;
   --primary-color: #ffffff;
   --secondry-color: #000000;
   --third-color: #242323;
@@ -24,6 +24,7 @@ body {
   --secondry-color: #ffffff;
   --third-color: #ffffff;
   --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
+  --sixth-color: #ff6310;
 }
 
 img {
@@ -61,9 +62,31 @@ img {
  text-shadow: 1px 1px 17px var(--primary-color);
 }
 #nav-menu .fa-sun {
+  color: var(--sixth-color);
   padding-top: 3px;
-  text-shadow: 1px 1px 1px var(--fifth-color);
   font-size: 1.8rem;
+}
+.btn {
+  color: var(--primary-color);
+  background-color: var(--secondry-color);
+  border: 2px solid aqua;
+  padding: 0.5rem 2.5rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  transition: all.4s;
+}
+
+.btn span {
+  color: var(--secondry-color);
+}
+
+.btn:hover {
+  box-shadow: inset 140px 0 0 0 rgb(152, 165, 251);
+  background-color: rgb(255, 252, 252);
+  color: var(--secondry-color);
+  cursor: pointer;
+  border: 2px solid rgb(255, 255, 255);
+  transform: translateX(1.5rem);
 }
 
 
@@ -71,10 +94,10 @@ img {
 /* <!-------------------------------------------------- HOME ----------------------------------------------------> */
 
 #home {
-  padding-top: 6em;
+  padding-top: 9em;
   display: flex;
   width: 90%;
-  margin: 1px auto 2em auto;
+  margin: 0 auto 5em auto;
 }
 
 .child1 {
@@ -106,7 +129,6 @@ img {
   animation-delay: 300s;
   box-shadow: 1rem 1rem 18em rgb(0, 208, 255);
 }
-
 @keyframes tc {
   0% {
     box-shadow: 0px -10px 30px var(--primary-color);
