@@ -6,7 +6,21 @@
 }
 
 body {
+  color: white;
   background: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
+}
+:root {
+  --primary-color: #ffffff;
+  --secondry-color: #000000;
+  --third-color: #242323;
+  --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
+}
+
+.dark-theme {
+  --primary-color: #000000;
+  --secondry-color: #ffffff;
+  --third-color: #ffffff;
+  --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
 }
 img{
   width: 200px;
