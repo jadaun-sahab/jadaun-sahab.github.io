@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME PAGE</title>
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/index.css">
 </head>
 
@@ -18,6 +19,7 @@
             <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
             <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
             <li><a class="nav-link resume" href="#Resume">RESUME</a></li>
+            <div class="darktheme"  onclick="theme()"><i class="fa-regular fa-sun"></i></div>
         </ul>
     </nav>
 
@@ -30,7 +32,9 @@
         </div>
       
         <div class="child1">
-            <h1 id="user-detail-name">VIKAS JADAUN</h1>
+            <h1 id="user-detail-name">
+                Hey I'M <br>
+                VIKAS JADAUN</h1>
             <h2 id="user-detail-intro">Full Stack Web Developer </h2>
         </div>
       
@@ -158,5 +162,10 @@
             src="https://github-readme-stats.vercel.app/api?username=ayushi9797&count_private=true" alt="stat-card" />
     </section>
 </body>
+<script>
+    function theme(){
+  document.body.classList.toggle("dark-theme")   
+}
 
+</script>
 </html>
