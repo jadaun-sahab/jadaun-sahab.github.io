@@ -11,21 +11,25 @@ body {
 }
 
 :root {
-  --sixth-color: #ffffff;
-  --primary-color: #ffffff;
-  --secondry-color: #000000;
-  --third-color: #242323;
-  --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
-  --fifth-color: #ff6310;
-}
-
-.dark-theme {
   --primary-color: #000000;
   --secondry-color: #ffffff;
   --third-color: #ffffff;
   --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
+  --seventh-color: #ff6310;
 }
+
+.dark-theme {
+  --sixth-color: #ffffff;
+  --primary-color: #ffffff;
+  --secondry-color: #000000;
+  --third-color: #242323;
+  --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
+  --seventh-color: white;
+}
+
+
+
 
 img {
   width: 200px;
@@ -33,10 +37,10 @@ img {
 
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
 
-#menubar{
-  /* display: none; */
+#menubar {
   font-size: 2rem;
   position: fixed;
+  border-radius: 10px;
   top: 0;
   right: 0;
   z-index: 10;
@@ -44,16 +48,19 @@ img {
   background: #00000074;
   padding: 5px 10px;
 }
+
 #nav-menu {
   display: flex;
   background-color: var(--secondry-color);
   position: fixed;
-  height: 50px;
+  height: 90px;
   width: 100%;
+  margin: auto;
 }
 
 #nav-menu ul {
-  width: 100%;
+  margin: auto;
+  width: 50%;
   justify-content: center;
   display: flex;
   padding-top: 10px;
@@ -64,21 +71,30 @@ img {
 }
 
 #nav-menu ul li a {
-  padding: 10px;
-  color: var(--fifth-color);
+  padding: 10px 27px;
+  color: #ff6310;
   font-size: 1.6rem;
   font-family: system-ui;
   text-decoration: none;
   text-shadow: 1px 1px 1px var(--primary-color);
 }
+
 #nav-menu ul li a:hover {
- text-shadow: 1px 1px 17px var(--primary-color);
+  text-shadow: 1px 1px 17px white;
 }
-#nav-menu .fa-sun {
+
+.fa-sun {
+  position: fixed;
+  border-radius: 10px;
+  top: 0;
+  background-color: #00000030;
+  left: 0;
+  z-index: 11;
   color: var(--sixth-color);
-  padding-top: 3px;
+  padding: 10px;
   font-size: 1.8rem;
 }
+
 .btn {
   color: var(--primary-color);
   background-color: var(--secondry-color);
@@ -102,12 +118,22 @@ img {
   transform: translateX(1.5rem);
 }
 
+.fa-house,
+.fa-phone,
+.fa-rocket,
+.fa-address-card,
+.fa-file-arrow-down,
+.fa-download,
+.fa-dice-d20 {
+  color: var(--seventh-color);
+  margin-right: 4px;
+}
 
 
 /* <!-------------------------------------------------- HOME ----------------------------------------------------> */
 
 #home {
-  padding-top: 9em;
+  padding-top: 12em;
   display: flex;
   width: 90%;
   margin: 0 auto 5em auto;
@@ -142,6 +168,7 @@ img {
   animation-delay: 300s;
   box-shadow: 1rem 1rem 18em rgb(0, 208, 255);
 }
+
 @keyframes tc {
   0% {
     box-shadow: 0px -10px 30px white;
@@ -184,7 +211,9 @@ img {
 
 /* <!-------------------------------------------------- ABOUT ----------------------------------------------------> */
 
-
+#about{
+  text-align: center;
+}
 
 
 
