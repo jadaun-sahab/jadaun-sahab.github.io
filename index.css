@@ -221,7 +221,7 @@ img {
 }
 #about h2 {
   font-family: system-ui;
-  color: rgb(35, 34, 34);
+  color: var(--primary-color);
   width: 60%;
   margin: 1rem auto 3em auto;
   font-size: 1.5rem;
@@ -385,6 +385,122 @@ img {
 
 
 
+#contact {
+  background-color: rgba(255, 255, 255, 0);
+  width: 70%;
+  margin: 3rem auto 6rem auto;
+  display: flex;
+  box-shadow: 2px 2px 3px rgb(251, 251, 251);
+}
+
+.contact-child-1 {
+  width: 100%;
+  background-color: #fff;
+}
+
+.contact-child-1 .email {
+  background-color: rgb(158, 229, 255);
+  background: linear-gradient(45deg, rgb(158, 229, 255), black);
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px 20px;
+  box-shadow: 2px 2px 2px var(--secondry-color);
+  margin: 0 auto;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.contact-child-1 .email:active {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px var(--secondry-color);
+}
+
+.contact-child-1 .email .fa-paper-plane {
+  margin: 0 3px;
+}
+
+.contact-child-1 .email a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-child-1 h1 {
+  text-align: center;
+  margin: 2rem auto 1.5rem auto;
+  font-weight: 400;
+}
+
+.contact-child-1 img {
+  margin: 0rem auto 0 auto;
+  padding-bottom: 2rem;
+  display: block;
+  width: 400px;
+}
+
+#imghand {
+  width: 100px;
+  margin: 5px auto 0 auto;
+  padding: 0;
+}
+
+.contact-child-2 {
+  background: url('/image/box-squares.gif')no-repeat center center/cover;
+  object-fit: contain;
+  opacity: 1;
+  content: "";
+  z-index: 6;
+  width: 100%;
+  background-color: rgb(52, 15, 116);
+}
+
+.contact-child-2 form {
+  margin-top: 2rem;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-child-2 h1 {
+  padding-top: 2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-child-2 form input {
+  margin: 10px auto;
+  display: block;
+  width: 60%;
+  padding: 10px 0;
+  border-top: none;
+  border-left: none;
+  color: var(--primary-color);
+  background-color: rgba(255, 255, 255, 0);
+  border-right: none;
+  border-bottom: 2px solid rgb(170, 168, 168);
+}
+
+.btns {
+  background-color: var(--primary-color);
+  width: 250px;
+  margin: 2rem auto 10px auto;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  transition: all .6s;
+}
+
+.btns:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  box-shadow: inset 260px 0 0 0 rgb(24, 5, 50);
+  ;
+}
 
 
 
