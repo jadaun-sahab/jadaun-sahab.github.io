@@ -50,10 +50,11 @@ img {
 }
 
 #nav-menu {
+  z-index: 7;
   display: flex;
   background-color: var(--secondry-color);
   position: fixed;
-  height: 90px;
+  height: 80px;
   width: 100%;
   margin: auto;
 }
@@ -73,7 +74,7 @@ img {
 #nav-menu ul li a {
   padding: 10px 27px;
   color: #ff6310;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: system-ui;
   text-decoration: none;
   text-shadow: 1px 1px 1px var(--primary-color);
@@ -127,6 +128,7 @@ img {
 .fa-dice-d20 {
   color: var(--seventh-color);
   margin-right: 4px;
+  font-size: 1.3rem;
 }
 
 
@@ -233,25 +235,31 @@ img {
 /* <!-------------------------------------------------- SKILLS ----------------------------------------------------> */
 
 
-
+#skills{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .skills-child1 {
   display: block;
 }
 
-/* .skills {
+.skills-card {
   margin: 2rem 0;
   display: flex;
-} */
+}
 
 .name {
-  margin: 10px;
+  margin: 5px 10px;
   font-size: 2rem;
   color: rgb(83, 83, 83);
 }
 
 .name img {
-  width: 100px;
+  margin-top: -5px;
+  height: 60px;
+  object-fit: contain;
+  width: 90px;
   background-color: var(--primary-color);
   border-radius: 5% 10%;
   box-shadow: 2px 2px 12px rgb(149, 145, 145), -2px -2px 32px rgb(149, 147, 147);
@@ -259,18 +267,22 @@ img {
 
 .bar {
   align-items: center;
-  height: 60px;
+  height: 40px;
   text-align: center;
   color: var(--primary-color);
   font-size: 2rem;
   padding: 10px 0px;
-  margin: 30px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
   animation-duration: 6s;
   animation-iteration-count: 1;
   transition: all 3s;
   border-radius: 4px;
   box-shadow: 2px 2px 2px white, -2px -2px 2px white;
   background: linear-gradient(45deg, rgb(35, 35, 227), rgb(68, 188, 201), rgb(221, 0, 255));
+}
+.bar p{
+  margin-top: -6px;
+  color: white;
 }
 
 .barhtml {
@@ -404,7 +416,7 @@ img {
   width: 150px;
   padding: 10px;
   border-radius: 10px 20px;
-  box-shadow: 2px 2px 2px var(--secondry-color);
+  box-shadow: 2px 2px 2px white;
   margin: 0 auto;
   font-size: 1.3rem;
   cursor: pointer;
@@ -412,7 +424,7 @@ img {
 
 .contact-child-1 .email:active {
   transform: translateY(2px);
-  box-shadow: 0px 0px 0px var(--secondry-color);
+  box-shadow: 0px 0px 0px white;
 }
 
 .contact-child-1 .email .fa-paper-plane {
@@ -422,13 +434,14 @@ img {
 .contact-child-1 .email a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
-  color: var(--primary-color);
+  color: rgb(255, 255, 255);
 }
 
 .contact-child-1 h1 {
   text-align: center;
   margin: 2rem auto 1.5rem auto;
   font-weight: 400;
+  color: black;
 }
 
 .contact-child-1 img {
@@ -456,14 +469,14 @@ img {
 
 .contact-child-2 form {
   margin-top: 2rem;
-  color: var(--primary-color);
+  color: black;
   display: flex;
   flex-direction: column;
 }
 
 .contact-child-2 h1 {
   padding-top: 2rem;
-  color: var(--primary-color);
+  color: white;
   font-size: 2rem;
   font-family: sans-serif;
   font-weight: 400;
@@ -477,14 +490,14 @@ img {
   padding: 10px 0;
   border-top: none;
   border-left: none;
-  color: var(--primary-color);
+  color: black;
   background-color: rgba(255, 255, 255, 0);
   border-right: none;
   border-bottom: 2px solid rgb(170, 168, 168);
 }
 
 .btns {
-  background-color: var(--primary-color);
+  background-color: white;
   width: 250px;
   margin: 2rem auto 10px auto;
   padding: 7px 10px;
@@ -495,11 +508,15 @@ img {
 }
 
 .btns:hover {
-  color: var(--primary-color);
+  color: white;
   cursor: pointer;
-  border: 1px solid var(--primary-color);
+  border: 1px solid white;
   box-shadow: inset 260px 0 0 0 rgb(24, 5, 50);
-  ;
+  
+}
+#contact-linkedin,#contact-github,#contact-phone,#contact-email{
+  z-index: -10;
+
 }
 
 
