@@ -15,7 +15,12 @@
   --seventh-color: white;
 }
 
-@media (max-width:1200px) {}
+@media (max-width:1200px) {
+  #contact {
+    width: 90%;
+    display: flex;
+  }
+}
 
 @media (max-width: 1000px) {}
 
@@ -53,6 +58,13 @@
   .fa-dice-d20 {
     color: var(--seventh-color);
     margin-right: 14px;
+  }
+  #skills{
+    display: block;
+  }
+  #contact {
+    width: 60%;
+    display: block;
   }
 }
 
@@ -94,6 +106,10 @@
 
   .child1 {
     width: 80%;
+  }
+  #contact {
+    width: 90%;
+    display: block;
   }
 }
 

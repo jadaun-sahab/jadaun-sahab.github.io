@@ -29,12 +29,6 @@ body {
 }
 
 
-
-
-img {
-  width: 200px;
-}
-
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
 
 #menubar {
@@ -44,7 +38,7 @@ img {
   top: 0;
   right: 0;
   z-index: 10;
-  color: white;
+  color: var(--sixth-color);
   background: #00000074;
   padding: 5px 10px;
 }
@@ -54,17 +48,16 @@ img {
   display: flex;
   background-color: var(--secondry-color);
   position: fixed;
-  height: 80px;
+  height: 65px;
   width: 100%;
   margin: auto;
 }
 
 #nav-menu ul {
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
   justify-content: center;
   display: flex;
-  padding-top: 10px;
 }
 
 #nav-menu ul li {
@@ -387,11 +380,29 @@ img {
 /* <!-------------------------------------------------- PROJECTS ----------------------------------------------------> */
 
 #projects{
-  display: grid;grid-template-columns: repeat(4,1fr);
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-
-
-
+.project-card {
+  color:var(--primary-color);
+  border-bottom: 2px double aqua;
+  width: 90%;
+  margin: 2em auto;
+  text-align: center;
+}
+.project-card img{
+  width: 80%;
+  box-shadow: 2px 2px 19px aqua;
+}
+.project-card p a{
+  text-decoration: none;
+  color:var(--primary-color);
+}
+.project-card div{
+display: flex;
+justify-content: center;
+}
 
 /* <!-------------------------------------------------- CONTACTS ----------------------------------------------------> */
 
