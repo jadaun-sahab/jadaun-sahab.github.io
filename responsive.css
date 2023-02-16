@@ -144,6 +144,12 @@
   .child1 h2 {
     font-size: 1.2rem;
   }
+  .contact-child-1 img {
+    margin: 0rem auto 0 auto;
+    padding-bottom: 2rem;
+    display: block;
+    width: 80%;
+  }
 
 }
 

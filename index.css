@@ -503,3 +503,17 @@ justify-content: center;
 
 
 /* <!-------------------------------------------------- GitHUB ----------------------------------------------------> */
+.react-activity-calendar {
+  text-align: center;
+  color: var(--primary-color);
+  margin: 2rem auto;
+  width: 70%;
+  display: block;
+}
+/* .react-activity-calendar div img{
+  width: 900px;
+  height: 200px;
+  } */
+  .react-activity-calendar img {
+    width: 70%;
+  }
