@@ -62,8 +62,12 @@
   #skills{
     display: block;
   }
+  #projects{
+    margin: 1rem;
+    display:block;
+  }
   #contact {
-    width: 60%;
+    width: 66%;
     display: block;
   }
 }
