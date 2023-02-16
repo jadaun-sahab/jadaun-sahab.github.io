@@ -470,7 +470,10 @@ justify-content: center;
   border-right: none;
   border-bottom: 2px solid rgb(170, 168, 168);
 }
-
+#resume-link-2{
+  color: var(--primary-color);
+  text-decoration: none;
+}
 .btns {
   background-color: white;
   width: 250px;
