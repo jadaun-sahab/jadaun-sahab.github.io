@@ -2,297 +2,274 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOME PAGE</title>
-    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> -->
     <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/responsive.css">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
+
 </head>
 
 <body>
 
-    <div id="menubar" onclick="hamburger()"><i class="fa-solid fa-bars"></i></div>
-    <div class="darktheme" onclick="theme()"><i class="fa-regular fa-sun"></i></div>
-    <nav id="nav-menu">
-        <ul>
-            <li><a class="nav-link home" href="#home"><i class="fa-solid fa-house"></i>HOME</a></li>
-            <li><a class="nav-link about" href="#about"><i class="fa-solid fa-address-card"></i>ABOUT</a></li>
-            <li><a class="nav-link skills" href="#skills"><i class="fa-solid fa-rocket"></i>SKILLS</a></li>
-            <li><a class="nav-link projects" href="#projects"><i class="fa-solid fa-dice-d20"></i>PROJECTS</a></li>
-            <li><a class="nav-link contact" href="#contact"><i class="fa-solid fa-phone"></i>CONTACT</a></li>
-            <li><a id="resume-link-1" class="nav-link resume"  href="/image/Vikas-Jadaun-Resume.pdf" 
-                download="Vikas_Jadaun_Resume"><i class="fa-solid fa-file-arrow-down"></i>RESUME</a></li>
-        </ul>
-    </nav>
-
-    <!-------------------------------------------------- HOME ---------------------------------------------------->
+    <div class="nav">
 
 
-    <section id="home">
-        <div class="child2">
-            <img src="./image/two.jpg" class="home-img" alt="#" />
-        </div>
-
-        <div class="child1">
-            <h1 id="user-detail-name">
-                Hey I'M <br>
-                VIKAS JADAUN</h1>
-            <h2 id="user-detail-intro">Full Stack Web Developer </h2>
-            <form action="contact.html"><button class="btn">Contact<span>&#8594;</span></button></form>
-        </div>
-
-    </section>
-
-
-
-    <!-------------------------------------------------- ABOUT ---------------------------------------------------->
-
-    <section title="About" id="about" class="about section">
-        <title>About</title>
-        <h1 id="user-detail-name"> </h1>
-        <h2 id="user-detail-intro">
-            Aspiring Full Stack Web Developer, with a Specialization
-            in CSS, SpringBoot, JavaScript and JAVA and a good grasp of
-            core java concept. collaborative team player who is
-            professional in working on interdisciplinary projects.
-            Looking forward to kickstart the career in the IT sector.
-        </h2>
-    </section>
-
-    <!-------------------------------------------------- ABOUT ---------------------------------------------------->
-
-    <hr>
-
-    <!-------------------------------------------------- SKILLS ---------------------------------------------------->
-
-    <section id="skills">
-
-        <div class="skills-card">
-            <div class="skills-card-name barhtml bar">
-                <p>90%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/html.png" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barcss bar">
-                <p>85%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/CSS3_logo.png" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card ">
-            <div class="skills-card-name barjs bar">
-                <p>60%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/javascript.png" alt=""> &nbsp;</div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barjs bar">
-                <p>60%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/Java.png" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barcss bar">
-                <p>85%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/netlify.jpg" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barjs bar">
-                <p>60%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/spring2.png" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barcss bar">
-                <p>85%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/github..png" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barjs bar">
-                <p>60%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/MySQL-Logo2.jpg" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barjs bar">
-                <p>60%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/git.png" alt=""></div>
-        </div>
-        <!-- <hr> -->
-        <div class="skills-card">
-            <div class="skills-card-name barjs bar">
-                <p>60%</p>
-            </div>
-            <div class="skills-card-img name"><img src="/image/hibernet.jpg" alt=""></div>
-        </div>
-
-    </section>
-
-    <!-------------------------------------------------- SKILLS ---------------------------------------------------->
-
-    <hr>
-
-    <!-------------------------------------------------- PROJECTS ---------------------------------------------------->
-
-    <section id="projects">
-
-        <div class="project-card">
-            <p class="project-description">Clone of FASHION-HUB</p>
-            <img src="./image/pro1.jpg" alt="">
-            <title class="project-title">FASHION-HUB</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
-            <div>
-                <p class="project-github-link"> <a href="https://github.com/jadaun-sahab/humble-town-2578"
-                        target="_blank">Github link </a></p>
-
-                <p class="project-deployed-link"><a href="https://splendorous-starburst-ff8d63.netlify.app/"
-                        target="_blank">Deployed link</a></p>
-            </div>
-
-        </div>
-
-        <div class="project-card">
-            <p class="project-description">AVH-Tiffins</p>
-            <img src="./image/pro2.jpg" alt="">
-            <title class="project-title">AVH</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
-            <div>
-                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/avh-store">Github link </a></p>
-                <p class="project-deployed-link"><a href="https://frabjous-chebakia-8f266f.netlify.app"> Deployed
-                        link</a>
-                </p>
-            </div>
-
-        </div>
+        <div id="nav-menu">
+            <nav>
+                <a class="logo" href="#">M<span>K</span></a>
+                <ul id="sidemenu">
+                    <li><a class="nav-link home" href="#home">HOME</a></li>
+                    <li><a class="nav-link about" href="#about">ABOUT</a></li>
+                    <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
+                    <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
+                    <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
+                    <li id="resume-button-1"> 
+                        <a class="nav-link resume" id="resume-link-1" href='Manoj_Kumar_Resume.pdf' download="Manoj-Resume">RESUME</a>
+                    </li>
+                    
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
 
 
-        <div class="project-card">
-            <p class="project-description">Clone of Instagram</p>
-            <img src="./image/instagrampro.jpg" alt="">
-            <title class="project-title">Instagram</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
-            <div>
-                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/instagram-clone">Github link</a>
-                </p>
-                <p class="project-deployed-link"><a href="https://jocular-creponne-3c79e3.netlify.app/"> Deployed
-                        link</a>
-                </p>
-            </div>
+            </nav>
 
-        </div>
-
-
-        <div class="project-card">
-            <p class="project-description">Gaming-website </p>
-            <img src="./image/pro8.jpg" alt="">
-            <title class="project-title">Gaming-website</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
-            <div>
-                <p class="project-github-link"><a href="hhttps://github.com/jadaun-sahab/js-gaming">Github link </a></p>
-                <p class="project-deployed-link"><a href="https://eloquent-pastelito-e1b07b.netlify.app"> Deployed
-                        link</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-------------------------------------------------- PROJECTS ---------------------------------------------------->
-
-    <hr>
-
-    <!-------------------------------------------------- CONTACTS ---------------------------------------------------->
-
-    <div id="contact">
-        <div class="contact-child-1">
-            <h1>Hi, Let's Have a quick chat <i class="fa-regular fa-comment"></i></h1>
-
-            <div class="email"> <a href="mailto:vikasjadaun830@gmail.com@.com"><i
-                        class="fa-solid fa-paper-plane"></i>Send email</a></div>
-
-            <img id="imghand" src="image/Handshake-lower-res.gif" alt="" width="100px">
-            <img src="image/contactbg1.jpg" alt="">
-
-        </div>
-        <div class="contact-child-2">
-
-            <h1>contact-me</h1>
-            <form action="https://formsubmit.co/vikasjadaun830@gmail.com" method="POST">
-                <input type="text" name="name" id="name" placeholder="NAME" required>
-                <input type="email" name="email" id="email" placeholder="EMAIL" required>
-                <input type="text" name="text" id="msg" placeholder="Your Massage Here">
-                <button class="btns" type="submit">Submit</button>
-                <a id="contact-github" href="https://github.com/jadaun-sahab">GitHub</a>
-                <a id="contact-linkedin" href="https://www.linkedin.com/in/vikas-jadaun-753531243/">LinkedIn</a>
-                <a id="contact-phone" href="#">8305181773</a>
-                <a id="contact-email" href="vikasjadaun830@gmail.com">Email</a>
-            </form>
         </div>
     </div>
-
-    <hr>
-    <!-------------------------------------------------- RESUME ---------------------------------------------------->
-
-    <!-- <section id="resume">
-        <button id="resume-button-1" src=""> Resume 1</button>
-        <button id="resume-button-2" src="">Resume 2</button>
-    </section>
- -->
-
-    <!-------------------------------------------------- GitHUB ---------------------------------------------------->
-
-    <section class="react-activity-calendar">
-        <h1>GitHub React-Activity-Calendar</h1>
-        <img id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com?user=jadaun-sahab&theme=vue&border_radius=4.3"
-            alt="streakstat" />
-        <div>
-            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushi9797"
-                alt="top_languages" />
-            <img id="github-stats-card"
-                src="https://github-readme-stats.vercel.app/api?username=jadaun-sahab&show_icons=true&locale=en"
-                alt="stat-card" />
+    <!-------------------- HOME ---------------------->
+    <section id="home">
+        <div class="max-width">
+            <div class="home-content">
+                
+                <div id="one">
+                    <div class="text-1">Hi, My Name is</div>
+                    <div id="user-detail-name" class="text-2">Manoj Kumar</div>
+                    <div class="text-3">And I'm a <span class="typing"></span></div>
+                    <button  id="resume-button-2"><a id="resume-link-2" href='Manoj_Kumar_Resume.pdf' download="Manoj-Resume">RESUME</a></button>
+                </div>
+                   <div >
+                    <img class="home-img" src="/image/two.jpg" alt="">
+                   </div>
+            </div>
         </div>
     </section>
+    <!-------------------- ABOUT ---------------------->
+    <section id="about" class="about section">
+        <h1>About Me</h1>
+        <div class="about-section">
+          
+            <div class="right">
+                <p id="user-detail-intro">A passionate Nodejs Back-End Developer, Dedicated  to developing robust
+                    applications with the help of Javascript, Express and Nodejs that interact  with the Backend part of
+                    web applications. Extensive expertise in website architecture, design, web design, and web API
+                    designs. 
+                    <!-- I'm also an enthusiastic learner who's constantly working to learn new things and improve
+                    my skills to be the best version of myself. -->
+                </p>
 
-    <!-------------------------------------------------- GitHUB ---------------------------------------------------->
+            </div>
+        </div>
+    </section>
+    <!-------------------- SKILLS ---------------------->
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skill">
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/nodejs.png" alt="nodejs.png" />
+                <h5 class="skills-card-name">Node JS</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/ee.png" alt="express.png" />
+                <h5 class="skills-card-name">Express JS</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/mongodb.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">Mongo DB</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/jsss.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">JavaScript</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/vscode.jpg" alt="mongodb.png" />
+                <h5 class="skills-card-name">Vs Code</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/aws.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">Aws</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/github.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">Github</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/html2.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">HTML</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/css2.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">CSS</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images/socket io2.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">WebSocket</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./images2/dsa.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">DSA</h5>
+            </div>
+        </div>
+    </section>
+    <!-------------------- PROJECTS ---------------------->
 
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project">
+
+            <div class="project-card">
+                <img src="./images/p1.png" alt="">
+                <h1 class="project-title">Fitnessblender</h1>
+                <p class="project-description">Fitnessblender is a health Hub. Fitnessblender goal is to make health and
+                    fitness attainable,affordable and approachable.</p>
+                <p class="project-tech-stack">Tech Stack: Html,JavaScript,CSS</p>
+                <div class="repo-links">
+                    <div class="project-github-link">
+                        <span> <a href="https://github.com/manoj7654/calculating-use-926" target="_blank"> Git Repo
+                            </a></span>
+                    </div>
+                    <div class="project-deployed-link">
+                        <span> <a href="https://bucolic-trifle-671509.netlify.app/" target="_blank">Live Site </a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/p2.png" alt="">
+                <h1 class="project-title">Desktime</h1>
+                <p class="project-description">Desktime is a product designed to increase productivity in an open and
+                    empowering environment.Boosting your employees and motivating them.</p>
+                <p class="project-tech-stack">Tech Stack: Html,JavaScript,CSS</p>
+                <div class="repo-links">
+                    <div class="project-github-link">
+                        <span> <a href="https://github.com/nitishmandal01/pointless-books-8646" target="_blank"> Git
+                                Repo </a></span>
+                    </div>
+                    <div class="project-deployed-link">
+                        <span> <a href="https://time-rocket.netlify.app/index.html" target="_blank">Live Site
+                            </a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/p3.png" alt="">
+                <h1 class="project-title">Webacoof</h1>
+                <p class="project-description">Bewacoof is the India's largest fashion D2C barand and e-commerce startup
+                    and also User can buy any thing from here.</p>
+                <p class="project-tech-stack">Tech Stack: Html,JavaScript,CSS</p>
+                <div class="repo-links">
+                    <div class="project-github-link">
+                        <span> <a href="https://github.com/manoj7654/fascinated-governor-8349" target="_blank"> Git Repo
+                            </a></span>
+                    </div>
+                    <div class="project-deployed-link">
+                        <span> <a href="https://taupe-conkies-95d9ec.netlify.app/" target="_blank">Live Site </a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/p3.png" alt="">
+                <h1 class="project-title">Webacoof</h1>
+                <p class="project-description">Bewacoof is the India's largest fashion D2C barand and e-commerce startup
+                    and also User can buy any thing from here.</p>
+                <p class="project-tech-stack">Tech Stack: Html,JavaScript,CSS</p>
+                <div class="repo-links">
+                    <div class="project-github-link">
+                        <span> <a href="https://github.com/manoj7654/fascinated-governor-8349" target="_blank"> Git Repo
+                            </a></span>
+                    </div>
+                    <div class="project-deployed-link">
+                        <span> <a href="https://taupe-conkies-95d9ec.netlify.app/" target="_blank">Live Site </a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-------------------- CONTACTS ---------------------->
+   
+    <!-------------------- RESUME ---------------------->
+    <!-- <section id="resume">
+        <a id="resume-link-1" href='Manoj_Kumar_Resume.pdf' download="Manoj-Resume">RESUME</a>
+    </section> -->
+    <!-------------------- GitHUB ---------------------->
+    <section class="react-activity-calendar">
+        <h1>GitHub React-Activity-Calendar</h1>
+        <!-- <div class="calendar react-activity-calendar"></div> -->
+        <div class="github">
+          
+            <div>
+                <img id="github-streak-stats"
+                    src="https://github-readme-streak-stats.herokuapp.com?user=manoj7654&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+                    alt="streakstat" />
+            </div>
+            <div>
+                <img id="github-top-langs"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=manoj7654&theme=outrun"
+                    alt="top_languages" />
+            </div>
+            <div>
+                <img id="github-stats-card"
+                    src="https://github-readme-stats.vercel.app/api?username=manoj7654&count_private=true"
+                    alt="stat-card" />
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="contact-first">
+            <div>
+                <a href="https://github.com/manoj7654"><i class="fa-brands fa-github"></i></a>
+                <a id="contact-github" href="https://github.com/manoj7654"></i>GitHub</a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/manoj-kumar-527974244/"><i class="fa-brands fa-linkedin"></i></a>
+                <a id="contact-linkedin" href="https://www.linkedin.com/in/manoj-kumar-527974244/">LinkedIn</a>
+            </div>
+            <div>
+               
+                <a id="contact-phone" href="#">📞 7654504943</a>
+            </div>
+            <div>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+                <a id="contact-email" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent">Email</a>
+            </div>
+        </div>
+
+    </section>
 </body>
-<script>
+<!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
+<!-- <script>
 
-    // -----------------------------------------------------------------------------------------------
+    GitHubCalendar(".calendar", "manoj7654", { responsive: true });
 
-
-
-    let ham = document.getElementById("nav-menu");
-    ham.style.display = "flex";
-    function hamburger() {
-        if (ham.style.display === "flex" || ham.style.display === "block") {
-            ham.style.display = "none";
+    // Use a proxy
+    GitHubCalendar(".calendar", "manoj7654", {
+        proxy(username) {
+            return fetch(`https://your-proxy.com/github?user=${username}`)
         }
-        else {
-            ham.style.display = "block";
-        }
-    }
-
-    // ----------------------------------------dark themee-----------------------------------------
-
-    function theme() {
-        document.body.classList.toggle("dark-theme")
-    }
-
-// ----------------------------------------dark themee-----------------------------------------
-</script>
-
+    })
+</script> -->
 </html>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script> -->
+
+     
+
+
+
+<script src="index.js"></script>

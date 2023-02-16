@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME PAGE</title>
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/responsive.css">
+</head>
+
+<body>
+
+    <div id="menubar" onclick="hamburger()"><i class="fa-solid fa-bars"></i></div>
+    <div class="darktheme" onclick="theme()"><i class="fa-regular fa-sun"></i></div>
+    <nav id="nav-menu">
+        <ul>
+            <li><a class="nav-link home" href="#home"><i class="fa-solid fa-house"></i>HOME</a></li>
+            <li><a class="nav-link about" href="#about"><i class="fa-solid fa-address-card"></i>ABOUT</a></li>
+            <li><a class="nav-link skills" href="#skills"><i class="fa-solid fa-rocket"></i>SKILLS</a></li>
+            <li><a class="nav-link projects" href="#projects"><i class="fa-solid fa-dice-d20"></i>PROJECTS</a></li>
+            <li><a class="nav-link contact" href="#contact"><i class="fa-solid fa-phone"></i>CONTACT</a></li>
+            <li><a id="resume-link-1" class="nav-link resume"  href="/image/Vikas-Jadaun-Resume.pdf" 
+                download="Vikas_Jadaun_Resume"><i class="fa-solid fa-file-arrow-down"></i>RESUME</a></li>
+        </ul>
+    </nav>
+
+    <!-------------------------------------------------- HOME ---------------------------------------------------->
+
+
+    <section id="home">
+        <div class="child2">
+            <img src="./image/two.jpg" class="home-img" alt="#" />
+        </div>
+
+        <div class="child1">
+            <h1 id="user-detail-name">
+                Hey I'M <br>
+                VIKAS JADAUN</h1>
+            <h2 id="user-detail-intro">Full Stack Web Developer </h2>
+            <form action="contact.html"><button class="btn">Contact<span>&#8594;</span></button></form>
+        </div>
+
+    </section>
+
+
+
+    <!-------------------------------------------------- ABOUT ---------------------------------------------------->
+
+    <section title="About" id="about" class="about section">
+        <title>About</title>
+        <h1 id="user-detail-name"> </h1>
+        <h2 id="user-detail-intro">
+            Aspiring Full Stack Web Developer, with a Specialization
+            in CSS, SpringBoot, JavaScript and JAVA and a good grasp of
+            core java concept. collaborative team player who is
+            professional in working on interdisciplinary projects.
+            Looking forward to kickstart the career in the IT sector.
+        </h2>
+    </section>
+
+    <!-------------------------------------------------- ABOUT ---------------------------------------------------->
+
+    <hr>
+
+    <!-------------------------------------------------- SKILLS ---------------------------------------------------->
+
+    <section id="skills">
+
+        <div class="skills-card">
+            <div class="skills-card-name barhtml bar">
+                <p>90%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/html.png" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barcss bar">
+                <p>85%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/CSS3_logo.png" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card ">
+            <div class="skills-card-name barjs bar">
+                <p>60%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/javascript.png" alt=""> &nbsp;</div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barjs bar">
+                <p>60%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/Java.png" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barcss bar">
+                <p>85%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/netlify.jpg" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barjs bar">
+                <p>60%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/spring2.png" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barcss bar">
+                <p>85%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/github..png" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barjs bar">
+                <p>60%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/MySQL-Logo2.jpg" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barjs bar">
+                <p>60%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/git.png" alt=""></div>
+        </div>
+        <!-- <hr> -->
+        <div class="skills-card">
+            <div class="skills-card-name barjs bar">
+                <p>60%</p>
+            </div>
+            <div class="skills-card-img name"><img src="/image/hibernet.jpg" alt=""></div>
+        </div>
+
+    </section>
+
+    <!-------------------------------------------------- SKILLS ---------------------------------------------------->
+
+    <hr>
+
+    <!-------------------------------------------------- PROJECTS ---------------------------------------------------->
+
+    <section id="projects">
+
+        <div class="project-card">
+            <p class="project-description">Clone of FASHION-HUB</p>
+            <img src="./image/pro1.jpg" alt="">
+            <title class="project-title">FASHION-HUB</title>
+            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <div>
+                <p class="project-github-link"> <a href="https://github.com/jadaun-sahab/humble-town-2578"
+                        target="_blank">Github link </a></p>
+
+                <p class="project-deployed-link"><a href="https://splendorous-starburst-ff8d63.netlify.app/"
+                        target="_blank">Deployed link</a></p>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+            <p class="project-description">AVH-Tiffins</p>
+            <img src="./image/pro2.jpg" alt="">
+            <title class="project-title">AVH</title>
+            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <div>
+                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/avh-store">Github link </a></p>
+                <p class="project-deployed-link"><a href="https://frabjous-chebakia-8f266f.netlify.app"> Deployed
+                        link</a>
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+            <p class="project-description">Clone of Instagram</p>
+            <img src="./image/instagrampro.jpg" alt="">
+            <title class="project-title">Instagram</title>
+            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <div>
+                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/instagram-clone">Github link</a>
+                </p>
+                <p class="project-deployed-link"><a href="https://jocular-creponne-3c79e3.netlify.app/"> Deployed
+                        link</a>
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+            <p class="project-description">Gaming-website </p>
+            <img src="./image/pro8.jpg" alt="">
+            <title class="project-title">Gaming-website</title>
+            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <div>
+                <p class="project-github-link"><a href="hhttps://github.com/jadaun-sahab/js-gaming">Github link </a></p>
+                <p class="project-deployed-link"><a href="https://eloquent-pastelito-e1b07b.netlify.app"> Deployed
+                        link</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------- PROJECTS ---------------------------------------------------->
+
+    <hr>
+
+    <!-------------------------------------------------- CONTACTS ---------------------------------------------------->
+
+    <div id="contact">
+        <div class="contact-child-1">
+            <h1>Hi, Let's Have a quick chat <i class="fa-regular fa-comment"></i></h1>
+
+            <div class="email"> <a href="mailto:vikasjadaun830@gmail.com@.com"><i
+                        class="fa-solid fa-paper-plane"></i>Send email</a></div>
+
+            <img id="imghand" src="image/Handshake-lower-res.gif" alt="" width="100px">
+            <img src="image/contactbg1.jpg" alt="">
+
+        </div>
+        <div class="contact-child-2">
+
+            <h1>contact-me</h1>
+            <form action="https://formsubmit.co/vikasjadaun830@gmail.com" method="POST">
+                <input type="text" name="name" id="name" placeholder="NAME" required>
+                <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                <input type="text" name="text" id="msg" placeholder="Your Massage Here">
+                <button class="btns" type="submit">Submit</button>
+                <a id="contact-github" href="https://github.com/jadaun-sahab">GitHub</a>
+                <a id="contact-linkedin" href="https://www.linkedin.com/in/vikas-jadaun-753531243/">LinkedIn</a>
+                <a id="contact-phone" href="#">8305181773</a>
+                <a id="contact-email" href="vikasjadaun830@gmail.com">Email</a>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+    <!-------------------------------------------------- RESUME ---------------------------------------------------->
+
+    <!-- <section id="resume">
+        <button id="resume-button-1" src=""> Resume 1</button>
+        <button id="resume-button-2" src="">Resume 2</button>
+    </section>
+ -->
+
+    <!-------------------------------------------------- GitHUB ---------------------------------------------------->
+
+    <section class="react-activity-calendar">
+        <h1>GitHub React-Activity-Calendar</h1>
+        <img id="github-streak-stats"
+            src="https://github-readme-streak-stats.herokuapp.com?user=jadaun-sahab&theme=vue&border_radius=4.3"
+            alt="streakstat" />
+        <div>
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushi9797"
+                alt="top_languages" />
+            <img id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=jadaun-sahab&show_icons=true&locale=en"
+                alt="stat-card" />
+        </div>
+    </section>
+
+    <!-------------------------------------------------- GitHUB ---------------------------------------------------->
+
+</body>
+<script>
+
+    // -----------------------------------------------------------------------------------------------
+
+
+
+    let ham = document.getElementById("nav-menu");
+    ham.style.display = "flex";
+    function hamburger() {
+        if (ham.style.display === "flex" || ham.style.display === "block") {
+            ham.style.display = "none";
+        }
+        else {
+            ham.style.display = "block";
+        }
+    }
+
+    // ----------------------------------------dark themee-----------------------------------------
+
+    function theme() {
+        document.body.classList.toggle("dark-theme")
+    }
+
+// ----------------------------------------dark themee-----------------------------------------
+</script>
+
+</html>
