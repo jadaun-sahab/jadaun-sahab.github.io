@@ -19,6 +19,11 @@
     width: 90%;
     display: flex;
   }
+  #more{
+    background-color: #fea8a8;
+    text-align: center;
+    width: 20%;
+  }
 }
 
 @media (max-width: 900px) {
@@ -95,9 +100,17 @@
     width: 66%;
     display: block;
   }
+  #morep{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+  }
 }
 
 @media (max-width:768px) {
+  .react-activity-calendar img {
+    width: 90%;
+  }
   #nav-menu .fa-sun {
     font-size: 1.4rem;
   }
@@ -157,7 +170,9 @@
     width: 95%;
     margin: 0 0 1em 0;
   }
-
+  #more{
+    width: 30%;
+  }
   #about h2 {
     width: 90%;
     margin: 1rem auto 3em auto;
@@ -199,6 +214,9 @@
   .child2 img:hover {
     width: 260px;
   }
+  .react-activity-calendar {
+    width: 90%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -214,7 +232,9 @@
   .child1 h2 {
     font-size: 1.2rem;
   }
-
+  #more{
+    width: 45%;
+  }
   .contact-child-1 img {
     margin: 0rem auto 0 auto;
     padding-bottom: 2rem;

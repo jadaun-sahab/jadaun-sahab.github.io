@@ -539,6 +539,7 @@ justify-content: center;
   color: var(--primary-color);
   margin: 2rem auto;
   width: 70%;
+  padding-bottom: 2em;
   display: block;
 }
 /* .react-activity-calendar div img{
