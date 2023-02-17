@@ -63,7 +63,10 @@
     margin: 0 6px;
     box-shadow: 2px 2px 12px var(--primary-color);
     border-radius:50%;
-    padding: 10px 7px;
+    padding: 10px ;
+  }
+  .child2 img{
+    margin-top: 2rem;
   }
   #home {
     padding-top: 0;
@@ -201,6 +204,20 @@
 }
 
 @media (max-width: 370px) {
+  .fa-house,
+  .fa-phone,
+  .fa-rocket,
+  .fa-address-card,
+  .fa-file-arrow-down,
+  .fa-download,
+  .fa-dice-d20 {
+    font-size: 1.3rem;
+    margin: 0 2px;
+    background-color: var(--secondry-color);
+    box-shadow: 2px 2px 12px var(--primary-color);
+    border-radius:50%;
+    padding: 8px;
+  }
   .child1 h1 {
     font-size: 1.8rem;
   }
