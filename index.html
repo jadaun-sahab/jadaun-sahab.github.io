@@ -89,7 +89,7 @@
             <div class="skills-card-name barjs bar">
                 <p>60%</p>
             </div>
-            <div class="skills-card-img name"><img src="/image/javascript.png" alt=""> &nbsp;</div>
+            <div class="skills-card-img name"><img src="/image/javascript.png" alt=""></div>
         </div>
         <!-- <hr> -->
         <div class="skills-card">
@@ -208,7 +208,59 @@
                         link</a></p>
             </div>
         </div>
-    </section>
+        
+        </section>
+        <div id="morep">
+            <div class="project-card">
+                <p class="project-description">Clone of Dogger's</p>
+                <img src="./image/pro3.jpg" alt="">
+                <title class="project-title">Dogger's Clone</title>
+                <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
+                <div>
+                    <p class="project-github-link"> <a href="https://github.com/jadaun-sahab/doggers-website"
+                            target="_blank"><i class="fa-brands fa-github"></i></a></p>
+    
+                    <p class="project-deployed-link"><a href="https://gregarious-rabanadas-8efac0.netlify.app/"
+                            target="_blank">Deployed link</a></p>
+                </div>
+            </div>
+            <div class="project-card">
+                <p class="project-description">Clone of Basspro</p>
+                <img src="./image/pro9.jpg" alt="">
+                <title class="project-title">Basspro clone</title>
+                <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
+                <div>
+                    <p class="project-github-link"><a href="https://github.com/jadaun-sahab/basspro-clone"><i class="fa-brands fa-github"></i></a></p>
+                    <p class="project-deployed-link"><a href="https://cheery-boba-309d24.netlify.app"> Deployed
+                            link</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <p class="project-description">KENTER</p>
+                <img src="./image/pro5.jpg" alt="">
+                <title class="project-title">kenter website</title>
+                <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
+                <div>
+                    <p class="project-github-link"><a href="https://github.com/jadaun-sahab/kenter-project/tree/main/kenter%20website"><i class="fa-brands fa-github"></i></a>
+                    </p>
+                    <p class="project-deployed-link"><a href="https://profound-tarsier-03c95f.netlify.app"> Deployed
+                            link</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <p class="project-description">Landing Page</p>
+                <img src="./image/pro7.jpg" alt="">
+                <title class="project-title">landing page</title>
+                <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
+                <div>
+                    <p class="project-github-link"><a href="https://github.com/jadaun-sahab/landingpage"><i class="fa-brands fa-github"></i></a></p>
+                    <p class="project-deployed-link"><a href="https://sage-youtiao-a450c3.netlify.app"> Deployed link<a></p>
+                </div>
+            </div>
+        </div>
+    <h6 id="more" onclick="showmore()">View More</h6>
 
     <!-------------------------------------------------- PROJECTS ---------------------------------------------------->
 
@@ -273,7 +325,19 @@
 </body>
 <script>
 
-    
+let viewmore =document.getElementById("morep");
+let na=document.getElementById("more");
+viewmore.style.display="none"
+function showmore(){
+    if(viewmore.style.display=="none"){
+       na.innerText="View Less"
+        viewmore.style.display="grid";
+    }
+    else{
+        na.innerText="View More"
+        viewmore.style.display="none"
+    }
+}
     // ----------------------------------------dark themee-----------------------------------------
 
     function theme() {

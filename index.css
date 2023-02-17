@@ -14,7 +14,7 @@ body {
   --primary-color: #000000;
   --secondry-color: #ffffff;
   --third-color: #ffffff;
-  --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
+  --forth-color: linear-gradient(to right, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
   --sun-color: #00000030;
 }
@@ -372,7 +372,28 @@ justify-content: center;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text
 }
-
+#morep{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2,1fr);
+}
+#more{
+  background-color: #fea8a8;
+  text-align: center;
+  width: 10%;
+  font-weight: 400;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 5px 0;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  transition: all 0.9s;
+}
+#more:hover{
+  box-shadow: inset 0  50px 0 0  rgb(85, 86, 159);
+  color: var(--secondry-color);
+}
 /* <!-------------------------------------------------- CONTACTS ----------------------------------------------------> */
 
 
