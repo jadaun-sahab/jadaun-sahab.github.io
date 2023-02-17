@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/responsive.css">
+    <link rel="shortcut icon" href="/image/favicon_io/favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
@@ -21,15 +22,15 @@
             <li><a class="nav-link skills" href="#skills"><i class="fa-solid fa-rocket"></i><span>SKILLS</span> </a></li>
             <li><a class="nav-link projects" href="#projects"><i class="fa-solid fa-dice-d20"></i><span>PROJECTS</span></a></li>
             <li><a class="nav-link contact" href="#contact"><i class="fa-solid fa-phone"></i><span>CONTACT</span> </a></li>
-            <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1"   href="/image/Vikas-Jadaun-Resume.pdf" 
-                download="Vikas_Jadaun_Resume"><i class="fa-solid fa-file-arrow-down"></i><span>RESUME</span> </a></li>
+            <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1"  href="/image/Vikas-Jadaun-Resume.pdf" 
+                download="Vikas_Jadaun_Resume"><i class="fa-solid fa-file-arrow-down"></i><span onclick="openresume()">RESUME</span> </a></li>
         </ul>
     </nav>
 
     <!-------------------------------------------------- HOME ---------------------------------------------------->
 
 
-    <section id="home">
+    <section title="Home" id="home">
         <div class="child2">
             <img src="./image/two.jpg" class="home-img" alt="#" />
         </div>
@@ -38,9 +39,9 @@
             <h1 id="user-detail-name">
                 Hey I'M <br>
                 VIKAS JADAUN</h1>
-            <h2 id="user-detail-intro">Full Stack Web Developer </h2>
+            <h2 id="user-details">Full Stack Web Developer </h2>
             <div class="resumebtn">
-                <button  id="resume-button-2" class="btn"><a id="resume-link-2" href='https://drive.google.com/file/d/192ndBi1PBzRkMeaumqFobqZ1BF-GIhAM/view?usp=share_link' download="vikas-jadaun-Resume">RESUME</a></button>
+                <button  id="resume-button-2" class="btn"><a id="resume-link-2" href='/image/Vikas-Jadaun-Resume.pdf' download="vikas-jadaun-Resume" onclick="openresume()">RESUME</a></button>
             </div>
            
         </div>
@@ -51,6 +52,7 @@
 
     <!-------------------------------------------------- ABOUT ---------------------------------------------------->
 
+    <h1 class="mainheading">ABOUT</h1>
     <section title="About" id="about" class="about section">
         <title>About</title>
         <h1 id="user-detail-name"> </h1>
@@ -69,8 +71,8 @@
 
     <!-------------------------------------------------- SKILLS ---------------------------------------------------->
 
-    <section id="skills">
-
+    <h1 class="mainheading">SKILLS</h1>
+    <section title="Skills" id="skills">
         <div class="skills-card">
             <div class="skills-card-name barhtml bar">
                 <p>90%</p>
@@ -148,8 +150,8 @@
     <hr>
 
     <!-------------------------------------------------- PROJECTS ---------------------------------------------------->
-
-    <section id="projects">
+    <h1 class="mainheading">PROJECTS</h1>
+    <section title="Projects" id="projects">
 
         <div class="project-card">
             <p class="project-description">Clone of Fashion-Hub</p>
@@ -267,8 +269,8 @@
     <hr>
 
     <!-------------------------------------------------- CONTACTS ---------------------------------------------------->
-
-    <div id="contact">
+    <h1 class="mainheading">CONTACT</h1>
+    <div title="Contact" id="contact">
         <div class="contact-child-1">
             <h1>Hi, Let's Have a quick chat <i class="fa-regular fa-comment"></i></h1>
 
@@ -287,11 +289,12 @@
                 <input type="email" name="email" id="email" placeholder="EMAIL" required>
                 <input type="text" name="text" id="msg" placeholder="Your Massage Here">
                 <button class="btns" type="submit">Submit</button>
-                <a id="contact-github" href="https://github.com/jadaun-sahab">GitHub</a>
-                <a id="contact-linkedin" href="https://www.linkedin.com/in/vikas-jadaun-753531243/">LinkedIn</a>
-                <a id="contact-phone" href="#">8305181773</a>
-                <a id="contact-email" href="vikasjadaun830@gmail.com">Email</a>
-            </form>
+                <div class="lindingithub"> <a id="contact-github" href="https://github.com/jadaun-sahab"><i class="fa-brands fa-github-alt"></i></a>
+                    <a id="contact-linkedin" href="https://www.linkedin.com/in/vikas-jadaun-753531243/"><i class="fa-brands fa-linkedin"></i></a></div>
+               
+                <a id="contact-phone" href="#">Contact Number- +918305181773</a>
+                <a id="contact-email" href="vikasjadaun830@gmail.com">Email Address - vikasjadaun830@gmail.com</a>
+            </form>  
         </div>
     </div>
 
@@ -306,7 +309,7 @@
 
     <!-------------------------------------------------- GitHUB ---------------------------------------------------->
 
-    <section class="react-activity-calendar">
+    <section title="Github-Stats" class="react-activity-calendar">
         <h1>GitHub React-Activity-Calendar</h1>
         <img id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=jadaun-sahab&theme=vue&border_radius=4.3"
@@ -345,6 +348,12 @@ function showmore(){
     }
 
 // ----------------------------------------dark themee-----------------------------------------
+
+
+
+function openresume(){
+    window.open("https://drive.google.com/file/d/192ndBi1PBzRkMeaumqFobqZ1BF-GIhAM/view?usp=share_link",'_blank');
+}
 </script>
 
 </html>

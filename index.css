@@ -27,7 +27,15 @@ body {
   --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
   --sun-color: #ffffff30;
 }
-
+.mainheading{
+  font-family: system-ui;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 2rem 0;
+  text-shadow: 2px 2px 2px var(--primary-color);
+  color: var(--secondry-color);
+}
 
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
 
@@ -126,6 +134,25 @@ body {
   width: 50%;
   margin: 2rem auto;
   padding: 30px 30px 0 30px;
+}
+#user-details {
+  color: var(--primary-color);
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 1rem rgb(255, 255, 255);
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: para;
+}
+
+@keyframes para {
+  0% {
+    color: var(--primary-color);
+  }
+
+  100% {
+   color: var(--secondry-color);
+  }
 }
 
 .child2 {
@@ -378,12 +405,13 @@ justify-content: center;
   grid-template-columns: repeat(2,1fr);
 }
 #more{
+  
   background-color: #fea8a8;
   text-align: center;
   width: 10%;
   font-weight: 400;
   border-radius: 8px;
-  margin: 10px auto;
+  margin: 10px auto 3em auto;
   padding: 5px 0;
   cursor: pointer;
   font-size: 1.6rem;
@@ -403,7 +431,6 @@ justify-content: center;
   width: 70%;
   margin: 3rem auto 6rem auto;
   display: flex;
-  box-shadow: 2px 2px 3px rgb(251, 251, 251);
 }
 
 .contact-child-1 {
@@ -518,8 +545,33 @@ justify-content: center;
   box-shadow: inset 260px 0 0 0 rgb(24, 5, 50);
   
 }
-#contact-linkedin,#contact-github,#contact-phone,#contact-email{
-  z-index: -10;
+.lindingithub{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+#contact-linkedin{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+}
+#contact-github{
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.fa-linkedin{
+  color: rgb(0, 136, 255);
+}
+#contact-phone,#contact-email{
+  font-family: system-ui;
+  margin: 5px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
 }
 #contact-child-2{
   z-index: 1;
