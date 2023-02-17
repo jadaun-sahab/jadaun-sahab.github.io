@@ -5,6 +5,7 @@
   --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
 }
+
 .dark-theme {
   --sixth-color: #ffffff;
   --primary-color: #ffffff;
@@ -29,26 +30,28 @@
     margin: 0 auto 1em auto;
   }
 
-   #nav-menu {
+  #nav-menu {
     width: 100%;
     text-align: center;
     display: flex;
     position: fixed;
     bottom: 0;
-    background-color:rgba(0, 0, 0, 0.563);
-  } 
-  #nav-menu ul li a span{
+    background-color: rgba(0, 0, 0, 0.563);
+  }
+
+  #nav-menu ul li a span {
     display: none;
   }
+
   #nav-menu ul {
     width: 100%;
     text-align: center;
     display: flex;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
   }
 
   #nav-menu ul li {
-    padding: 10px 0px;
+    padding: 10px 0;
   }
 
   .fa-house,
@@ -61,28 +64,34 @@
     color: #ff6310;
     font-size: 1.7rem;
     margin: 0 6px;
-    box-shadow: 2px 2px 12px var(--primary-color);
-    border-radius:50%;
-    padding: 10px ;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 50%;
+    padding: 10px;
   }
-  .child2 img{
+
+  .child2 img {
     margin-top: 2rem;
   }
+
   #home {
     padding-top: 0;
   }
+
   #about h2 {
     width: 90%;
     margin: 1rem auto 3em auto;
     font-size: 1.5rem;
   }
-  #skills{
+
+  #skills {
     display: block;
   }
-  #projects{
+
+  #projects {
     margin: 1rem;
-    display:block;
+    display: block;
   }
+
   #contact {
     width: 66%;
     display: block;
@@ -103,32 +112,35 @@
   .child1 {
     width: 70%;
   }
+
   .skills-card {
     margin: 2rem 0;
     display: flex;
     flex-direction: column-reverse;
   }
+
   .name img {
     display: flex;
     justify-content: center;
     align-items: center;
-     margin: 2em auto 0 auto;
+    margin: 2em auto 0 auto;
     height: 60px;
     width: 90px;
   }
+
   .resumebtn {
     width: 50%;
     margin: 0 auto;
     display: flex;
-      }
+  }
 }
 
 @media (max-width:600px) {
   #nav-menu ul li a {
     padding: 10px 5px;
-    
+
   }
- 
+
   #nav-menu .fa-sun {
     padding-top: 6px;
     font-size: 1rem;
@@ -138,6 +150,7 @@
     width: 95%;
     margin: 0 0 1em 0;
   }
+
   #about h2 {
     width: 90%;
     margin: 1rem auto 3em auto;
@@ -147,6 +160,7 @@
   .child1 {
     width: 80%;
   }
+
   #contact {
     width: 90%;
     display: block;
@@ -154,6 +168,7 @@
 }
 
 @media (max-width: 500px) {
+
   .fa-house,
   .fa-phone,
   .fa-rocket,
@@ -163,11 +178,9 @@
   .fa-dice-d20 {
     font-size: 1.4rem;
     margin: 0 2px;
-    background-color: var(--secondry-color);
-    box-shadow: 2px 2px 12px var(--primary-color);
-    border-radius:50%;
     padding: 10px;
   }
+
   .child1 {
     width: 90%;
   }
@@ -194,6 +207,7 @@
   .child1 h2 {
     font-size: 1.2rem;
   }
+
   .contact-child-1 img {
     margin: 0rem auto 0 auto;
     padding-bottom: 2rem;
@@ -204,6 +218,7 @@
 }
 
 @media (max-width: 370px) {
+
   .fa-house,
   .fa-phone,
   .fa-rocket,
@@ -213,11 +228,10 @@
   .fa-dice-d20 {
     font-size: 1.3rem;
     margin: 0 2px;
-    background-color: var(--secondry-color);
-    box-shadow: 2px 2px 12px var(--primary-color);
-    border-radius:50%;
+    border-radius: 50%;
     padding: 8px;
   }
+
   .child1 h1 {
     font-size: 1.8rem;
   }
