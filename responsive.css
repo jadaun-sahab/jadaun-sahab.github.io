@@ -86,7 +86,7 @@
   }
 }
 
-@media (max-width:750px) {
+@media (max-width:768px) {
   #nav-menu .fa-sun {
     font-size: 1.4rem;
   }
@@ -113,17 +113,19 @@
     height: 60px;
     width: 90px;
   }
+  .resumebtn {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+      }
 }
 
 @media (max-width:600px) {
-  
- 
   #nav-menu ul li a {
     padding: 10px 5px;
     
   }
-
-
+ 
   #nav-menu .fa-sun {
     padding-top: 6px;
     font-size: 1rem;
