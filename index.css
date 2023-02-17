@@ -16,7 +16,7 @@ body {
   --third-color: #ffffff;
   --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
-  --seventh-color: #ff6310;
+  
 }
 
 .dark-theme {
@@ -25,23 +25,11 @@ body {
   --secondry-color: #000000;
   --third-color: #242323;
   --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
-  --seventh-color: white;
+  
 }
 
 
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
-
-#menubar {
-  font-size: 2rem;
-  position: fixed;
-  border-radius: 10px;
-  top: 0;
-  right: 0;
-  z-index: 10;
-  color: var(--sixth-color);
-  background: #00000074;
-  padding: 5px 10px;
-}
 
 #nav-menu {
   z-index: 7;
@@ -66,7 +54,7 @@ body {
 
 #nav-menu ul li a {
   padding: 10px 27px;
-  color: #ff6310;
+  color: var(--sixth-color);
   font-size: 1.4rem;
   font-family: system-ui;
   text-decoration: none;
@@ -119,7 +107,7 @@ body {
 .fa-file-arrow-down,
 .fa-download,
 .fa-dice-d20 {
-  color: var(--seventh-color);
+  color: #ff6310;
   margin-right: 4px;
   font-size: 1.3rem;
 }
@@ -354,18 +342,35 @@ body {
   width: 90%;
   margin: 2em auto;
   text-align: center;
+  padding-bottom: 2rem;
 }
 .project-card img{
   width: 80%;
   box-shadow: 2px 2px 19px aqua;
 }
 .project-card p a{
+  font-size: 1.6rem;
+  margin: 10px;
   text-decoration: none;
   color:var(--primary-color);
+}
+.project-tech-stack{
+  font-weight: 400;
+  margin: 10px;
+  font-size: 1.3rem;
 }
 .project-card div{
 display: flex;
 justify-content: center;
+}
+.project-description{
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-size: 2rem;
+  margin: 1rem 0;
+  transition: all 1s ease-in-out;
+  background: linear-gradient(90deg, #ffffff, #00fbff, #ffffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text
 }
 
 /* <!-------------------------------------------------- CONTACTS ----------------------------------------------------> */
@@ -494,7 +499,9 @@ justify-content: center;
 }
 #contact-linkedin,#contact-github,#contact-phone,#contact-email{
   z-index: -10;
-
+}
+#contact-child-2{
+  z-index: 1;
 }
 
 

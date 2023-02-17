@@ -13,17 +13,16 @@
 
 <body>
 
-    <div id="menubar" onclick="hamburger()"><i class="fa-solid fa-bars"></i></div>
     <div class="darktheme" onclick="theme()"><i class="fa-regular fa-sun"></i></div>
     <nav id="nav-menu">
         <ul>
-            <li><a class="nav-link home" href="#home"><i class="fa-solid fa-house"></i>HOME</a></li>
-            <li><a class="nav-link about" href="#about"><i class="fa-solid fa-address-card"></i>ABOUT</a></li>
-            <li><a class="nav-link skills" href="#skills"><i class="fa-solid fa-rocket"></i>SKILLS</a></li>
-            <li><a class="nav-link projects" href="#projects"><i class="fa-solid fa-dice-d20"></i>PROJECTS</a></li>
-            <li><a class="nav-link contact" href="#contact"><i class="fa-solid fa-phone"></i>CONTACT</a></li>
+            <li><a class="nav-link home" href="#home"><i class="fa-solid fa-house"></i><span> HOME</span></a></li>
+            <li><a class="nav-link about" href="#about"><i class="fa-solid fa-address-card"></i><span> ABOUT</span></a></li>
+            <li><a class="nav-link skills" href="#skills"><i class="fa-solid fa-rocket"></i><span>SKILLS</span> </a></li>
+            <li><a class="nav-link projects" href="#projects"><i class="fa-solid fa-dice-d20"></i><span>PROJECTS</span></a></li>
+            <li><a class="nav-link contact" href="#contact"><i class="fa-solid fa-phone"></i><span>CONTACT</span> </a></li>
             <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1"   href="/image/Vikas-Jadaun-Resume.pdf" 
-                download="Vikas_Jadaun_Resume"><i class="fa-solid fa-file-arrow-down"></i>RESUME</a></li>
+                download="Vikas_Jadaun_Resume"><i class="fa-solid fa-file-arrow-down"></i><span>RESUME</span> </a></li>
         </ul>
     </nav>
 
@@ -150,13 +149,13 @@
     <section id="projects">
 
         <div class="project-card">
-            <p class="project-description">Clone of FASHION-HUB</p>
+            <p class="project-description">Clone of Fashion-Hub</p>
             <img src="./image/pro1.jpg" alt="">
             <title class="project-title">FASHION-HUB</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
             <div>
                 <p class="project-github-link"> <a href="https://github.com/jadaun-sahab/humble-town-2578"
-                        target="_blank">Github link </a></p>
+                        target="_blank"><i class="fa-brands fa-github"></i></a></p>
 
                 <p class="project-deployed-link"><a href="https://splendorous-starburst-ff8d63.netlify.app/"
                         target="_blank">Deployed link</a></p>
@@ -168,9 +167,9 @@
             <p class="project-description">AVH-Tiffins</p>
             <img src="./image/pro2.jpg" alt="">
             <title class="project-title">AVH</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
             <div>
-                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/avh-store">Github link </a></p>
+                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/avh-store"><i class="fa-brands fa-github"></i></a></p>
                 <p class="project-deployed-link"><a href="https://frabjous-chebakia-8f266f.netlify.app"> Deployed
                         link</a>
                 </p>
@@ -183,9 +182,9 @@
             <p class="project-description">Clone of Instagram</p>
             <img src="./image/instagrampro.jpg" alt="">
             <title class="project-title">Instagram</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
             <div>
-                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/instagram-clone">Github link</a>
+                <p class="project-github-link"><a href="https://github.com/jadaun-sahab/instagram-clone"><i class="fa-brands fa-github"></i></a>
                 </p>
                 <p class="project-deployed-link"><a href="https://jocular-creponne-3c79e3.netlify.app/"> Deployed
                         link</a>
@@ -199,9 +198,9 @@
             <p class="project-description">Gaming-website </p>
             <img src="./image/pro8.jpg" alt="">
             <title class="project-title">Gaming-website</title>
-            <h3 class="project-tech-stack">Html|CSS|JavaScript</h3>
+            <h3 class="project-tech-stack">Html | CSS | JavaScript</h3>
             <div>
-                <p class="project-github-link"><a href="hhttps://github.com/jadaun-sahab/js-gaming">Github link </a></p>
+                <p class="project-github-link"><a href="hhttps://github.com/jadaun-sahab/js-gaming"><i class="fa-brands fa-github"></i></a></p>
                 <p class="project-deployed-link"><a href="https://eloquent-pastelito-e1b07b.netlify.app"> Deployed
                         link</a></p>
             </div>
@@ -271,21 +270,7 @@
 </body>
 <script>
 
-    // -----------------------------------------------------------------------------------------------
-
-
-
-    let ham = document.getElementById("nav-menu");
-    ham.style.display = "flex";
-    function hamburger() {
-        if (ham.style.display === "flex" || ham.style.display === "block") {
-            ham.style.display = "none";
-        }
-        else {
-            ham.style.display = "block";
-        }
-    }
-
+    
     // ----------------------------------------dark themee-----------------------------------------
 
     function theme() {

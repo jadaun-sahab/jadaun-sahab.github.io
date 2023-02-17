@@ -4,7 +4,6 @@
   --third-color: #ffffff;
   --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
-  --seventh-color: #ff6310;
 }
 .dark-theme {
   --sixth-color: #ffffff;
@@ -12,7 +11,6 @@
   --secondry-color: #000000;
   --third-color: #242323;
   --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
-  --seventh-color: white;
 }
 
 @media (max-width:1200px) {
@@ -21,8 +19,6 @@
     display: flex;
   }
 }
-
-@media (max-width: 1000px) {}
 
 @media (max-width: 900px) {
 
@@ -33,20 +29,26 @@
     margin: 0 auto 1em auto;
   }
 
-  #nav-menu {
-    height: 360px;
-    background-color: var(--secondry-color);
+   #nav-menu {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.563);
+  } 
+  #nav-menu ul li a span{
+    display: none;
   }
-
   #nav-menu ul {
     width: 100%;
     text-align: center;
-    display: block;
-    position: fixed;
+    display: flex;
+    background-color:rgb(255, 255, 255);
   }
 
   #nav-menu ul li {
-    padding: 10px 5px;
+    padding: 10px 0px;
   }
 
   .fa-house,
@@ -56,8 +58,20 @@
   .fa-file-arrow-down,
   .fa-download,
   .fa-dice-d20 {
-    color: var(--seventh-color);
-    margin-right: 14px;
+    color: #ff6310;
+    font-size: 1.7rem;
+    margin: 0 6px;
+    box-shadow: 2px 2px 12px var(--primary-color);
+    border-radius:50%;
+    padding: 10px 7px;
+  }
+  #home {
+    padding-top: 0;
+  }
+  #about h2 {
+    width: 90%;
+    margin: 1rem auto 3em auto;
+    font-size: 1.5rem;
   }
   #skills{
     display: block;
@@ -86,15 +100,27 @@
   .child1 {
     width: 70%;
   }
-
-
+  .skills-card {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .name img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 2em auto 0 auto;
+    height: 60px;
+    width: 90px;
+  }
 }
 
 @media (max-width:600px) {
-
+  
+ 
   #nav-menu ul li a {
     padding: 10px 5px;
-    text-align: left;
+    
   }
 
 
@@ -107,6 +133,11 @@
     width: 95%;
     margin: 0 0 1em 0;
   }
+  #about h2 {
+    width: 90%;
+    margin: 1rem auto 3em auto;
+    font-size: 1.1rem;
+  }
 
   .child1 {
     width: 80%;
@@ -118,6 +149,20 @@
 }
 
 @media (max-width: 500px) {
+  .fa-house,
+  .fa-phone,
+  .fa-rocket,
+  .fa-address-card,
+  .fa-file-arrow-down,
+  .fa-download,
+  .fa-dice-d20 {
+    font-size: 1.4rem;
+    margin: 0 2px;
+    background-color: var(--secondry-color);
+    box-shadow: 2px 2px 12px var(--primary-color);
+    border-radius:50%;
+    padding: 10px;
+  }
   .child1 {
     width: 90%;
   }
