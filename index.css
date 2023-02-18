@@ -286,7 +286,7 @@ body {
   transition: all 3s;
   border-radius: 4px;
   box-shadow: 2px 2px 2px white, -2px -2px 2px white;
-  background: linear-gradient(45deg, rgb(35, 35, 227), rgb(68, 188, 201), rgb(221, 0, 255));
+   background: linear-gradient(to right, rgb(103, 212, 239), rgb(255, 184, 184)); 
 }
 .bar p{
   margin-top: -6px;
@@ -309,7 +309,6 @@ body {
 }
 
 .barjs {
-  background-color: rgb(0, 255, 128);
   animation-name: js;
   width: 55%;
 }
@@ -325,7 +324,6 @@ body {
 }
 
 .barcss {
-  background-color: rgb(255, 68, 0);
   animation-name: css;
   width: 78%;
 }
@@ -373,7 +371,7 @@ body {
 }
 .project-card img{
   width: 80%;
-  box-shadow: 2px 2px 19px aqua;
+  box-shadow: 2px 2px 19px rgb(255, 255, 255);
 }
 .project-card p a{
   font-size: 1.6rem;
@@ -405,8 +403,7 @@ justify-content: center;
   grid-template-columns: repeat(2,1fr);
 }
 #more{
-  
-  background-color: #fea8a8;
+  background-color: #f9f2f2;
   text-align: center;
   width: 10%;
   font-weight: 400;
@@ -415,12 +412,12 @@ justify-content: center;
   padding: 5px 0;
   cursor: pointer;
   font-size: 1.6rem;
-  color: var(--primary-color);
+  color:black;
   transition: all 0.9s;
 }
 #more:hover{
   box-shadow: inset 0  50px 0 0  rgb(85, 86, 159);
-  color: var(--secondry-color);
+  color: white;
 }
 /* <!-------------------------------------------------- CONTACTS ----------------------------------------------------> */
 
