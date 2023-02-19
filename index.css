@@ -515,7 +515,7 @@ justify-content: center;
   padding: 10px 0;
   border-top: none;
   border-left: none;
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0);
   border-right: none;
   border-bottom: 2px solid rgb(170, 168, 168);
