@@ -282,7 +282,7 @@ body {
   padding: 10px 0px;
   margin: 10px 10px 10px 10px;
   animation-duration: 6s;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
   transition: all 3s;
   border-radius: 4px;
   box-shadow: 2px 2px 2px white, -2px -2px 2px white;
@@ -597,4 +597,4 @@ justify-content: center;
   } */
   .react-activity-calendar img {
     width: 70%;
-  }
+---2  }
