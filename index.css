@@ -148,6 +148,7 @@ body {
 
 /* <!-------------------------------------------------- HOME ----------------------------------------------------> */
 
+
 #home {
   padding-top: 12em;
   display: flex;
@@ -229,7 +230,6 @@ body {
   background: linear-gradient(90deg, #00dbe0, #fc00ff, #38bbf8);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-
 }
 
 .child1 h2 {
@@ -263,7 +263,6 @@ body {
   margin: 1rem auto 3em auto;
   font-size: 1.5rem;
 }
-
 
 
 /* <!-------------------------------------------------- SKILLS ----------------------------------------------------> */
