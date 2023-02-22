@@ -97,6 +97,7 @@ body {
 
 @keyframes sun {
   0% {
+    color: rgb(251, 117, 68);
     rotate: 60deg;
   }
 
