@@ -16,7 +16,7 @@ body {
   --third-color: #ffffff;
   --forth-color: linear-gradient(to right, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
-  --sun-color: #00000030;
+  --sun-color: #00000034;
 }
 
 .dark-theme {
@@ -27,14 +27,15 @@ body {
   --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
   --sun-color: #ffffff30;
 }
-.mainheading{
+
+.mainheading {
   font-family: system-ui;
   text-align: center;
   font-size: 3rem;
   font-weight: 400;
   margin: 2rem 0;
-  text-shadow: 2px 2px 2px var(--primary-color);
-  color: var(--secondry-color);
+  text-shadow: 2px 2px 2px black;
+  color:white;
 }
 
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
@@ -74,15 +75,38 @@ body {
 }
 
 .fa-sun {
-  position: fixed;
-  border-radius: 10px;
-  top: 0;
-  background-color: var(--sun-color);
-  left: 0;
-  z-index: 11;
   color: var(--sixth-color);
   padding: 10px;
   font-size: 1.8rem;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: sun;
+  transition: all 1s;
+}
+
+.darktheme {
+  border-radius: 50%;
+  top: 0;
+  border: 1px solid rgb(255, 99, 15);
+  background-color: var(--sun-color);
+  left: 0;
+  z-index: 11;
+  position: fixed;
+  cursor: pointer;
+}
+
+@keyframes sun {
+  0% {
+    rotate: 60deg;
+  }
+
+  50% {
+    rotate: 180deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
 }
 
 .btn {
@@ -135,6 +159,7 @@ body {
   margin: 2rem auto;
   padding: 30px 30px 0 30px;
 }
+
 #user-details {
   color: var(--primary-color);
   margin: 1.5rem 0;
@@ -151,7 +176,7 @@ body {
   }
 
   100% {
-   color: var(--secondry-color);
+    color: var(--secondry-color);
   }
 }
 
@@ -164,7 +189,7 @@ body {
 }
 
 .child2 img {
-  width: 300px;
+  width: 310px;
   border-radius: 50%;
   box-shadow: 0px -10px 20px rgb(255, 255, 255);
   animation: tc 3s infinite;
@@ -198,7 +223,6 @@ body {
 }
 
 .child1 h1 {
-
   transition: all 1s ease-in-out;
   font-size: 2.6rem;
   background: linear-gradient(90deg, #00dbe0, #fc00ff, #38bbf8);
@@ -218,17 +242,19 @@ body {
 }
 
 
-
 /* <!-------------------------------------------------- ABOUT ----------------------------------------------------> */
 
-#about{
+
+#about {
   text-align: center;
 }
+
 #about h1 {
   font-family: system-ui;
   font-size: 3rem;
   text-shadow: 2px 2px 2px black;
 }
+
 #about h2 {
   font-family: system-ui;
   color: var(--primary-color);
@@ -239,11 +265,10 @@ body {
 
 
 
-
 /* <!-------------------------------------------------- SKILLS ----------------------------------------------------> */
 
 
-#skills{
+#skills {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -286,9 +311,10 @@ body {
   transition: all 3s;
   border-radius: 4px;
   box-shadow: 2px 2px 2px white, -2px -2px 2px white;
-   background: linear-gradient(to right, rgb(103, 212, 239), rgb(255, 184, 184)); 
+  background: linear-gradient(to right, rgb(103, 212, 239), rgb(255, 184, 184));
 }
-.bar p{
+
+.bar p {
   margin-top: -6px;
   color: white;
 }
@@ -356,39 +382,53 @@ body {
 
 /* <!-------------------------------------------------- PROJECTS ----------------------------------------------------> */
 
-#projects{
+
+#projects {
   margin: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .project-card {
-  color:var(--primary-color);
+  color: var(--primary-color);
   border-bottom: 2px double aqua;
   width: 90%;
   margin: 2em auto;
   text-align: center;
   padding-bottom: 2rem;
 }
-.project-card img{
+
+.project-card img {
   width: 80%;
+  filter: blur(1px);
   box-shadow: 2px 2px 19px rgb(255, 255, 255);
 }
-.project-card p a{
+
+.project-card img:hover {
+  filter: blur(0px);
+  cursor: pointer;
+  filter: contrast(10px);
+}
+
+.project-card p a {
   font-size: 1.6rem;
   margin: 10px;
   text-decoration: none;
-  color:var(--primary-color);
+  color: var(--primary-color);
 }
-.project-tech-stack{
+
+.project-tech-stack {
   font-weight: 400;
   margin: 10px;
   font-size: 1.3rem;
 }
-.project-card div{
-display: flex;
-justify-content: center;
+
+.project-card div {
+  display: flex;
+  justify-content: center;
 }
-.project-description{
+
+.project-description {
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
   font-size: 2rem;
   margin: 1rem 0;
@@ -397,12 +437,14 @@ justify-content: center;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text
 }
-#morep{
+
+#morep {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-#more{
+
+#more {
   background-color: #f9f2f2;
   text-align: center;
   width: 10%;
@@ -412,15 +454,17 @@ justify-content: center;
   padding: 5px 0;
   cursor: pointer;
   font-size: 1.6rem;
-  color:black;
+  color: black;
   transition: all 0.9s;
 }
-#more:hover{
-  box-shadow: inset 0  50px 0 0  rgb(85, 86, 159);
+
+#more:hover {
+  box-shadow: inset 0 50px 0 0 rgb(85, 86, 159);
   color: white;
 }
-/* <!-------------------------------------------------- CONTACTS ----------------------------------------------------> */
 
+
+/* <!-------------------------------------------------- CONTACTS ----------------------------------------------------> */
 
 
 #contact {
@@ -432,7 +476,7 @@ justify-content: center;
 
 .contact-child-1 {
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .contact-child-1 .email {
@@ -470,6 +514,7 @@ justify-content: center;
 }
 
 .contact-child-1 img {
+  filter: brightness(1.2);
   margin: 0rem auto 0 auto;
   padding-bottom: 2rem;
   display: block;
@@ -520,10 +565,12 @@ justify-content: center;
   border-right: none;
   border-bottom: 2px solid rgb(170, 168, 168);
 }
-#resume-link-2{
+
+#resume-link-2 {
   color: var(--primary-color);
   text-decoration: none;
 }
+
 .btns {
   background-color: white;
   width: 250px;
@@ -540,29 +587,43 @@ justify-content: center;
   cursor: pointer;
   border: 1px solid white;
   box-shadow: inset 260px 0 0 0 rgb(24, 5, 50);
-  
+
 }
-.lindingithub{
+
+.lindingithub {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
-#contact-linkedin{
+
+.fa-linkedin,
+.fa-github-alt {
+  padding: 8px;
+  background-color: #ffffff3c;
+  border: 1px solid white;
+  border-radius: 20% 40%;
+  margin: 0 5px;
+}
+
+#contact-linkedin {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
 }
-#contact-github{
+
+#contact-github {
   margin: 0 5px;
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
 }
 
-.fa-linkedin{
+.fa-linkedin {
   color: rgb(0, 136, 255);
 }
-#contact-phone,#contact-email{
+
+#contact-phone,
+#contact-email {
   font-family: system-ui;
   margin: 5px 0;
   text-decoration: none;
@@ -570,19 +631,15 @@ justify-content: center;
   font-size: 1.3rem;
   text-align: center;
 }
-#contact-child-2{
+
+#contact-child-2 {
   z-index: 1;
 }
 
 
-
-/* <!-------------------------------------------------- RESUME ----------------------------------------------------> */
-
-
-
-
-
 /* <!-------------------------------------------------- GitHUB ----------------------------------------------------> */
+
+
 .react-activity-calendar {
   text-align: center;
   color: var(--primary-color);
@@ -591,10 +648,7 @@ justify-content: center;
   padding-bottom: 2em;
   display: block;
 }
-/* .react-activity-calendar div img{
-  width: 900px;
-  height: 200px;
-  } */
-  .react-activity-calendar img {
-    width: 70%;
----2  }
+
+.react-activity-calendar img {
+  width: 70%;
+}
