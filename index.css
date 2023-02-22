@@ -16,7 +16,7 @@ body {
   --third-color: #ffffff;
   --forth-color: linear-gradient(to right, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
-  --sun-color: #00000034;
+  --sun-color: #00000025;
 }
 
 .dark-theme {
