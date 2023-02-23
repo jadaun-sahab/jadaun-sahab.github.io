@@ -639,8 +639,34 @@ body {
 
 
 /* <!-------------------------------------------------- GitHUB ----------------------------------------------------> */
+#github-streak-stats,#github-stats-card{
+  animation-name: github2;
+  animation-duration: 4s;
+  animation-iteration-count:1;
+}
+@keyframes github2 {
+  0% {
+    transform: translateX(655px);
+  }
 
+  100% {
+    transform: translateX(5px);
+  }
+}
+#github-top-langs{
+  animation-name: github;
+  animation-duration: 4s;
+  animation-iteration-count:1;
+}
+@keyframes github {
+  0% {
+    transform: translateX(-655px);
+  }
 
+  100% {
+    transform: translateX(5px);
+  }
+}
 .react-activity-calendar {
   text-align: center;
   color: var(--primary-color);
@@ -656,10 +682,10 @@ body {
 .upar {
   transition: all 1s;
   position: fixed;
-  top: 18em;
+  top: 21em;
   padding: 10px 16px;
   border-radius: 15px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   right: 5px;
 }
 
