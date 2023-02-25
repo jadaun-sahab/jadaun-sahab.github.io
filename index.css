@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  transition: all .2s;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -640,34 +639,8 @@ body {
 
 
 /* <!-------------------------------------------------- GitHUB ----------------------------------------------------> */
-#github-streak-stats,#github-stats-card{
-  animation-name: github2;
-  animation-duration: 4s;
-  animation-iteration-count:1;
-}
-@keyframes github2 {
-  0% {
-    transform: translateX(655px);
-  }
 
-  100% {
-    transform: translateX(5px);
-  }
-}
-#github-top-langs{
-  animation-name: github;
-  animation-duration: 4s;
-  animation-iteration-count:1;
-}
-@keyframes github {
-  0% {
-    transform: translateX(-655px);
-  }
 
-  100% {
-    transform: translateX(5px);
-  }
-}
 .react-activity-calendar {
   text-align: center;
   color: var(--primary-color);
