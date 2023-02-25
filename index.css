@@ -9,7 +9,9 @@ body {
   color: white;
   background: var(--forth-color);
 }
-
+a{
+  text-decoration: none;
+}
 :root {
   --primary-color: #000000;
   --secondry-color: #ffffff;
@@ -66,7 +68,6 @@ body {
   color: var(--sixth-color);
   font-size: 1.4rem;
   font-family: system-ui;
-  text-decoration: none;
   text-shadow: 1px 1px 1px var(--primary-color);
 }
 
@@ -414,7 +415,6 @@ body {
 .project-card p a {
   font-size: 1.6rem;
   margin: 10px;
-  text-decoration: none;
   color: var(--primary-color);
 }
 
@@ -501,7 +501,6 @@ body {
 
 .contact-child-1 .email a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
@@ -567,7 +566,6 @@ body {
 
 #resume-link-2 {
   color: var(--primary-color);
-  text-decoration: none;
 }
 
 .btns {
@@ -605,14 +603,12 @@ body {
 }
 
 #contact-linkedin {
-  text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
 }
 
 #contact-github {
   margin: 0 5px;
-  text-decoration: none;
   color: white;
   font-size: 1.3rem;
 }
@@ -625,7 +621,6 @@ body {
 #contact-email {
   font-family: system-ui;
   margin: 5px 0;
-  text-decoration: none;
   color: white;
   font-size: 1.3rem;
   text-align: center;
@@ -678,3 +673,4 @@ body {
     transform: translateY(5px);
   }
 }
+/* 682 */
