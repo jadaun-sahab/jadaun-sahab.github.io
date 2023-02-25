@@ -63,7 +63,8 @@
   .fa-address-card,
   .fa-file-arrow-down,
   .fa-download,
-  .fa-dice-d20 {
+  .fa-dice-d20 ,
+  .a-file-arrow-down {
     color: #ff6310;
     font-size: 1.7rem;
     margin: 0 6px;
