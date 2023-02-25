@@ -63,14 +63,16 @@
   .fa-address-card,
   .fa-file-arrow-down,
   .fa-download,
-  .fa-dice-d20 ,
-  .a-file-arrow-down {
+  .fa-dice-d20 {
     color: #ff6310;
     font-size: 1.7rem;
     margin: 0 6px;
     box-shadow: 2px 2px 12px black;
     border-radius: 50%;
     padding: 10px;
+  }
+  #nav-menu ul li a .fa-file-arrow-down{
+    padding: 10px 13px;
   }
 
   .child2 img {
@@ -214,6 +216,9 @@
     margin: 0 2px;
     padding: 10px;
   }
+  #nav-menu ul li a .fa-file-arrow-down{
+    padding: 10px 13px;
+  }
 
   .child1 {
     width: 90%;
@@ -270,6 +275,9 @@
     margin: 0 2px;
     border-radius: 50%;
     padding: 8px;
+  }
+  #nav-menu ul li a .fa-file-arrow-down{
+    padding: 8px 11px;
   }
   .btns {
     width: 200px;
