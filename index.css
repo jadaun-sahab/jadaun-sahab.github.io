@@ -638,6 +638,8 @@ a{
 
 
 .react-activity-calendar {
+  visibility: hidden;
+  height: 1px;
   text-align: center;
   color: var(--primary-color);
   margin: 2rem auto;
@@ -647,6 +649,7 @@ a{
 }
 
 .react-activity-calendar img {
+  height: 1px;
   width: 70%;
 }
 .upar {
