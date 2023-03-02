@@ -112,9 +112,7 @@
 }
 
 @media (max-width:768px) {
-  .react-activity-calendar img {
-    width: 90%;
-  }
+  
   #nav-menu .fa-sun {
     font-size: 1.4rem;
   }
@@ -165,6 +163,9 @@
     width: 50%;
     margin: 0 auto;
     display: flex;
+  }
+  #githubsection{
+    width: 80%;
   }
 }
 
@@ -231,9 +232,7 @@
   .child2 img:hover {
     width: 260px;
   }
-  .react-activity-calendar {
-    width: 100%;
-  }
+  
 }
 
 @media (max-width: 450px) {

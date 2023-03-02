@@ -635,22 +635,26 @@ a{
 
 
 /* <!-------------------------------------------------- GitHUB ----------------------------------------------------> */
-
-
+#githubsection{
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  padding-bottom: 5em;
+}
+#githubsection img{
+  width: 100%;
+  object-fit: contain;
+  height: 300px;
+}
 .react-activity-calendar {
   visibility: hidden;
   height: 1px;
-  text-align: center;
-  color: var(--primary-color);
-  margin: 2rem auto;
-  width: 70%;
-  padding-bottom: 2em;
-  display: block;
+  display: flex;
 }
 
 .react-activity-calendar img {
   height: 1px;
-  width: 70%;
+  width:1px;
 }
 .upar {
   transition: all 1s;
