@@ -9,9 +9,11 @@ body {
   color: white;
   background: var(--forth-color);
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 :root {
   --primary-color: #000000;
   --secondry-color: #ffffff;
@@ -37,7 +39,7 @@ a{
   font-weight: 400;
   margin: 2rem 0;
   text-shadow: 2px 2px 2px black;
-  color:white;
+  color: white;
 }
 
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
@@ -118,7 +120,7 @@ a{
 .fa-address-card,
 .fa-file-arrow-down,
 .fa-download,
-.fa-dice-d20{
+.fa-dice-d20 {
   color: #ff6310;
   margin-right: 4px;
   font-size: 1.3rem;
@@ -243,7 +245,8 @@ a{
   border: 2px solid rgb(255, 255, 255);
   transform: translateX(1.5rem);
 }
-.btn:hover >#resume-link-2{
+
+.btn:hover>#resume-link-2 {
   color: white;
 }
 
@@ -366,21 +369,6 @@ a{
 
   100% {
     width: 78%;
-  }
-}
-
-.barspring {
-  width: 10%;
-  animation-name: spring;
-}
-
-@keyframes spring {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 10%;
   }
 }
 
@@ -587,7 +575,6 @@ a{
   cursor: pointer;
   border: 1px solid white;
   box-shadow: inset 260px 0 0 0 rgb(24, 5, 50);
-
 }
 
 .lindingithub {
@@ -635,17 +622,22 @@ a{
 
 
 /* <!-------------------------------------------------- GitHUB ----------------------------------------------------> */
-#githubsection{
+
+
+#githubsection {
   margin: 0 auto;
   display: block;
   width: 70%;
   padding-bottom: 5em;
 }
-#githubsection img{
+
+#githubsection img {
+  transition: all 0.2s;
   width: 100%;
   object-fit: contain;
   height: 300px;
 }
+
 .react-activity-calendar {
   visibility: hidden;
   height: 1px;
@@ -654,8 +646,9 @@ a{
 
 .react-activity-calendar img {
   height: 1px;
-  width:1px;
+  width: 1px;
 }
+
 .upar {
   transition: all 1s;
   position: fixed;

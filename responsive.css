@@ -19,11 +19,16 @@
     width: 90%;
     display: flex;
   }
-  #more{
+
+  #more {
     text-align: center;
     width: 20%;
   }
 }
+
+
+/* --------------------------------------------------BREAKPOINT------------------------------------------------------ */
+
 
 @media (max-width: 900px) {
   #home {
@@ -71,7 +76,8 @@
     border-radius: 50%;
     padding: 10px;
   }
-  #nav-menu ul li a .fa-file-arrow-down{
+
+  #nav-menu ul li a .fa-file-arrow-down {
     padding: 10px 13px;
   }
 
@@ -82,9 +88,11 @@
   #home {
     padding-top: 0;
   }
+
   .mainheading {
     font-size: 2.5rem;
   }
+
   #about h2 {
     width: 90%;
     margin: 1rem auto 3em auto;
@@ -104,15 +112,20 @@
     width: 66%;
     display: block;
   }
-  #morep{
+
+  #morep {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
+
+/* --------------------------------------------------BREAKPOINT------------------------------------------------------ */
+
+
 @media (max-width:768px) {
-  
+
   #nav-menu .fa-sun {
     font-size: 1.4rem;
   }
@@ -132,16 +145,20 @@
     display: flex;
     flex-direction: column-reverse;
   }
+
   .project-description {
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-size: 1.7rem;
   }
+
   .project-card p a {
     font-size: 1.2rem;
   }
+
   .project-tech-stack {
     font-size: 1rem;
   }
+
   .name img {
     display: flex;
     justify-content: center;
@@ -150,44 +167,55 @@
     height: 60px;
     width: 90px;
   }
+
   .bar {
     height: 35px;
     font-size: 2rem;
     padding: 10px 0px;
     margin: 10px 10px 10px 10px;
   }
-  .bar p{
+
+  .bar p {
     margin-top: -10px;
   }
+
   .resumebtn {
     width: 50%;
     margin: 0 auto;
     display: flex;
   }
-  #githubsection{
+
+  #githubsection {
     width: 80%;
   }
 }
+
+/* --------------------------------------------------BREAKPOINT------------------------------------------------------ */
+
 
 @media (max-width:600px) {
   #nav-menu ul li a {
     padding: 10px 5px;
   }
+
   .mainheading {
     font-size: 2.1rem;
   }
+
   #nav-menu .fa-sun {
     padding-top: 6px;
     font-size: 1rem;
   }
-  
+
   #home {
     width: 95%;
     margin: 0 0 1em 0;
   }
-  #more{
+
+  #more {
     width: 30%;
   }
+
   #about h2 {
     width: 90%;
     margin: 1rem auto 3em auto;
@@ -204,8 +232,12 @@
   }
 }
 
+
+/* --------------------------------------------------BREAKPOINT------------------------------------------------------ */
+
+
 @media (max-width: 500px) {
-  
+
   .fa-house,
   .fa-phone,
   .fa-rocket,
@@ -217,7 +249,8 @@
     margin: 0 2px;
     padding: 10px;
   }
-  #nav-menu ul li a .fa-file-arrow-down{
+
+  #nav-menu ul li a .fa-file-arrow-down {
     padding: 10px 13px;
   }
 
@@ -232,13 +265,18 @@
   .child2 img:hover {
     width: 260px;
   }
-  
+
 }
+
+
+/* --------------------------------------------------BREAKPOINT------------------------------------------------------ */
+
 
 @media (max-width: 450px) {
   .mainheading {
     font-size: 1.8rem;
   }
+
   .child1 {
     width: 86%;
   }
@@ -246,20 +284,26 @@
   .child1 h1 {
     font-size: 2rem;
   }
+
   #user-details {
     font-size: 1.2rem;
   }
-  #more{
+
+  #more {
     width: 45%;
   }
+
   .contact-child-1 img {
     margin: 0rem auto 0 auto;
     padding-bottom: 2rem;
     display: block;
     width: 80%;
   }
-
 }
+
+
+/* --------------------------------------------------BREAKPOINT------------------------------------------------------ */
+
 
 @media (max-width: 370px) {
 
@@ -275,12 +319,15 @@
     border-radius: 50%;
     padding: 8px;
   }
-  #nav-menu ul li a .fa-file-arrow-down{
+
+  #nav-menu ul li a .fa-file-arrow-down {
     padding: 8px 11px;
   }
+
   .btns {
     width: 200px;
   }
+
   .child1 h1 {
     font-size: 1.8rem;
   }
@@ -290,5 +337,5 @@
     padding: 0;
     width: 90%;
   }
-
 }
+/* --------------------------------------------------ENDPOINT------------------------------------------------------ */
