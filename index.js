@@ -21,8 +21,10 @@ function showmore(){
 
     // ----------------------------------------dark themee-----------------------------------------
 
+    let sun=document.getElementsByClassName(".fa-sun");
     function theme() {
         document.body.classList.toggle("dark-theme")
+       
     }
 
 // ----------------------------------------dark themee-----------------------------------------
