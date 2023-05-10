@@ -390,10 +390,19 @@ a {
   text-align: center;
   padding-bottom: 2rem;
 }
+.desc{
+  font-size: 1.3rem;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ecf3ff3b;
+  color: rgb(0, 0, 0);
+}
 
 .project-card img {
   width: 80%;
-  filter: blur(1px);
+  /* filter: blur(1px); */
   box-shadow: 2px 2px 19px rgb(255, 255, 255);
 }
 
