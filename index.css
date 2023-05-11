@@ -402,12 +402,12 @@ a {
 
 .project-card img {
   width: 80%;
-  /* filter: blur(1px); */
+  transform: scale(0.97);
   box-shadow: 2px 2px 19px rgb(255, 255, 255);
 }
 
 .project-card img:hover {
-  filter: blur(0px);
+  transform: scale(1);
   cursor: pointer;
   filter: contrast(10px);
 }
