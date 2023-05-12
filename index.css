@@ -396,11 +396,13 @@ a {
   margin: 0 auto;
   border-radius: 5px;
   padding: 10px;
+  /* background: linear-gradient(190deg,rgba(247, 62, 111, 0.985),skyblue); */
   background-color: #ecf3ff3b;
   color: rgb(0, 0, 0);
 }
 
 .project-card img {
+  height: 250px;
   width: 80%;
   transform: scale(0.97);
   box-shadow: 2px 2px 19px rgb(255, 255, 255);
