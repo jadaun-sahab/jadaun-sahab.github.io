@@ -400,9 +400,16 @@ a {
   background-color: #ecf3ff3b;
   color: var(--primary-color);
 }
-
+.project-deployed-link .fa-rocket,.project-github-link .fa-github{
+  font-size: 1.5rem;
+  color: #ff6310;
+  padding: 7px 7px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.962);
+  background: linear-gradient(to right,rgba(244, 36, 119, 0.208),rgba(75, 207, 255, 0.274));
+  box-shadow: none;
+}
 .project-card img {
-  /* height: 250px; */
   width: 80%;
   transform: scale(0.97);
   box-shadow: 2px 2px 19px rgb(255, 255, 255);

@@ -30,7 +30,7 @@
 /* --------------------------------------------------BREAKPOINT------------------------------------------------------ */
 
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #home {
     padding-top: 6em;
     display: block;
@@ -146,6 +146,7 @@
     flex-direction: column-reverse;
   }
   .desc{
+    width: 99%;
     padding:5px ;
     font-size: 1rem;
   }
