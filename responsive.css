@@ -4,14 +4,16 @@
   --third-color: #ffffff;
   --forth-color: linear-gradient(45deg, rgb(103, 212, 239), rgb(255, 184, 184));
   --sixth-color: #ff6310;
+  --seventh-color: #ebebebfb;
 }
 
 .dark-theme {
-  --sixth-color: #ffffff;
   --primary-color: #ffffff;
   --secondry-color: #000000;
   --third-color: #242323;
   --forth-color: linear-gradient(45deg, rgb(3, 3, 3), rgb(37, 36, 36));
+  --sixth-color: #ffffff;
+  --seventh-color: #404040;
 }
 
 @media (max-width:1200px) {
@@ -55,7 +57,7 @@
     width: 100%;
     text-align: center;
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.944);
   }
 
   #nav-menu ul li {
@@ -70,6 +72,7 @@
   .fa-download,
   .fa-dice-d20 {
     color: #ff6310;
+    background-color: white;
     font-size: 1.7rem;
     margin: 0 6px;
     box-shadow: 2px 2px 12px black;
