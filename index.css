@@ -409,6 +409,10 @@ a {
   background: linear-gradient(to right,rgba(244, 36, 119, 0.208),rgba(75, 207, 255, 0.274));
   box-shadow: none;
 }
+.project-deployed-link .fa-rocket:hover,.project-github-link .fa-github:hover{
+  color: var(--primary-color);
+
+}
 .project-card img {
   width: 80%;
   transform: scale(0.97);
