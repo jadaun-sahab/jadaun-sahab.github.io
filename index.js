@@ -67,6 +67,6 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
         if (j<arr.length - 1) j++;
         else j=0;
   }
-  setInterval(slides2, 1500);
+  setInterval(slides2, 2500);
 
 /* --------------------------------------------------GITHUB------------------------------------------------------ */
