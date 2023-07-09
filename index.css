@@ -5,14 +5,6 @@
   scroll-behavior: smooth;
 }
 
-
-
-
-
-
-
-
-
 html {
   --scrollbarBG: #dcf4ff;
   --thumbBG: #67e8ff;
@@ -31,16 +23,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
-
-
-
-
-
-
-
-
-
-
 
 body {
   color: white;
