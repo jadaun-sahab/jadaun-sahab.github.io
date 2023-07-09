@@ -5,6 +5,52 @@
   scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
+
+
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  height: 100vh;
+  overflow-y: auto;
+  font: 100%/1.4 serif;
+  border: 1px solid rgba(0, 0, 0, 0.25)
+}
+
+
+
+
+
+
+
+
+
+
+
 body {
   color: white;
   background: var(--forth-color);
@@ -390,7 +436,8 @@ a {
   text-align: center;
   padding-bottom: 2rem;
 }
-.desc{
+
+.desc {
   font-size: 1.3rem;
   width: 80%;
   margin: 0 auto;
@@ -400,19 +447,24 @@ a {
   background-color: #ecf3ff3b;
   color: var(--primary-color);
 }
-.project-deployed-link .fa-rocket,.project-github-link .fa-github{
+
+.project-deployed-link .fa-rocket,
+.project-github-link .fa-github {
   font-size: 1.5rem;
   color: #ff6310;
   padding: 7px 7px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.962);
-  background: linear-gradient(to right,rgba(244, 36, 119, 0.208),rgba(75, 207, 255, 0.274));
+  background: linear-gradient(to right, rgba(244, 36, 119, 0.208), rgba(75, 207, 255, 0.274));
   box-shadow: none;
 }
-.project-deployed-link .fa-rocket:hover,.project-github-link .fa-github:hover{
+
+.project-deployed-link .fa-rocket:hover,
+.project-github-link .fa-github:hover {
   color: var(--primary-color);
 
 }
+
 .project-card img {
   width: 80%;
   transform: scale(0.97);
