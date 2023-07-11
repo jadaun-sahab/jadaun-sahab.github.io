@@ -66,6 +66,7 @@ a {
   color: black;
   transition: all 1s; 
   border-bottom: 1px solid lightgray;
+  background-color: var(--secondry-color);
 }
 
 #nav-menu {
