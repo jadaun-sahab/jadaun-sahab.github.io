@@ -64,7 +64,7 @@ a {
 /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
 .BgColour {
   color: black;
-  transition: all 0.5s; 
+  transition: all 0.5s;
   border-bottom: 1px solid lightgray;
   background-color: var(--secondry-color);
 }

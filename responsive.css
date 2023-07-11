@@ -148,14 +148,17 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .desc{
+
+  .desc {
     width: 99%;
-    padding:5px ;
+    padding: 5px;
     font-size: 1rem;
   }
+
   .project-card img {
     width: 100%;
   }
+
   .project-description {
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-size: 1.7rem;
@@ -275,7 +278,8 @@
   .child2 img:hover {
     width: 260px;
   }
-  .desc{
+
+  .desc {
     width: 100%;
   }
 
@@ -351,4 +355,5 @@
     width: 90%;
   }
 }
+
 /* --------------------------------------------------ENDPOINT------------------------------------------------------ */
