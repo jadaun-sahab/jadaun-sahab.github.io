@@ -72,6 +72,16 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
 /* --------------------------------------------------GITHUB------------------------------------------------------ */
 
 
+
+
+
+
+
+
+
+/* --------------------------------------------------SCROLL-BG-CHANGE------------------------------------------------------ */
+
+
 function scrollValue() {
   var navbar = document.getElementById('navbar');
   var scroll = window.scrollY;
