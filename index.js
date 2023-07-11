@@ -79,7 +79,7 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
 
 
 
-/* --------------------------------------------------SCROLL-BG-CHANGE------------------------------------------------------ */
+/* ---------------------------------------------SCROLL-BG-CHANGE------------------------------------------------- */
 
 
 function scrollValue() {
@@ -93,3 +93,6 @@ function scrollValue() {
 }
 
 window.addEventListener('scroll', scrollValue);
+
+
+/* ---------------------------------------------SCROLL-BG-CHANGE------------------------------------------------- */
