@@ -15,12 +15,6 @@ function showmore() {
 
 /* --------------------------------------------------PROJECT----------------------------------------------------- */
 
-
-
-
-
-
-
 /* -----------------------------------------------DARK-THEME----------------------------------------------------- */
 
 let sun = document.getElementsByClassName(".fa-sun");
@@ -29,12 +23,6 @@ function theme() {
 }
 
 /* -----------------------------------------------DARK-THEME----------------------------------------------------- */
-
-
-
-
-
-
 
 /* ---------------------------------------------RESUME-DOWNLOAD-------------------------------------------------- */
 
@@ -54,12 +42,6 @@ document.getElementById("resume-link-2").addEventListener("click", () => {
 
 /* ---------------------------------------------RESUME-DOWNLOAD-------------------------------------------------- */
 
-
-
-
-
-
-
 /* --------------------------------------------------GITHUB------------------------------------------------------ */
 
 let arr = [
@@ -78,12 +60,6 @@ setInterval(slides2, 2500);
 
 /* --------------------------------------------------GITHUB------------------------------------------------------ */
 
-
-
-
-
-
-
 /* ---------------------------------------------SCROLL-BG-CHANGE------------------------------------------------- */
 
 function scrollValue() {
@@ -100,25 +76,19 @@ window.addEventListener("scroll", scrollValue);
 
 /* ---------------------------------------------SCROLL-BG-CHANGE------------------------------------------------- */
 
-
-
-
-
-
 /* ---------------------------------------------SCROLL-ANIMATION------------------------------------------------- */
-
 
 let observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-      
-       if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-       }
-       else {
-            entry.target.classList.remove('show');
-       }
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
   });
 });
 
-let hiddenElements = document.querySelectorAll('.hidden');
+let hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+/* ---------------------------------------------SCROLL-ANIMATION------------------------------------------------- */
