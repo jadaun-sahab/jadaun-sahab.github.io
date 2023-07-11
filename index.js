@@ -70,3 +70,16 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
   setInterval(slides2, 2500);
 
 /* --------------------------------------------------GITHUB------------------------------------------------------ */
+
+
+function scrollValue() {
+  var navbar = document.getElementById('navbar');
+  var scroll = window.scrollY;
+  if (scroll < 200) {
+      navbar.classList.remove('BgColour');
+  } else {
+      navbar.classList.add('BgColour');
+  }
+}
+
+window.addEventListener('scroll', scrollValue);
