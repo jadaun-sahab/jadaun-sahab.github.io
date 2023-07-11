@@ -83,7 +83,7 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
 
 
 function scrollValue() {
-  var navbar = document.getElementById('navbar');
+  var navbar = document.getElementById('nav-menu');
   var scroll = window.scrollY;
   if (scroll < 200) {
       navbar.classList.remove('BgColour');
