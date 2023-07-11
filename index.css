@@ -71,7 +71,6 @@ a {
 #nav-menu {
   z-index: 7;
   display: flex;
-  background-color: var(--secondry-color);
   position: fixed;
   height: 65px;
   width: 100%;
