@@ -102,6 +102,12 @@ window.addEventListener("scroll", scrollValue);
 
 
 
+
+
+
+/* ---------------------------------------------SCROLL-ANIMATION------------------------------------------------- */
+
+
 let observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
       
