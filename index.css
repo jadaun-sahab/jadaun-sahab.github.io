@@ -184,7 +184,6 @@ a {
   color: var(--primary-color);
   margin: 1.5rem 0;
   font-size: 1.6rem;
-  text-shadow: 1px 1px 1rem rgb(255, 255, 255); 
 }
 
 @keyframes para {
