@@ -360,15 +360,7 @@ a {
   width: 55%;
 }
 
-@keyframes js {
-  0% {
-    width: 0%;
-  }
 
-  100% {
-    width: 85%;
-  }
-}
 
 .barcss {
   animation-name: css;
