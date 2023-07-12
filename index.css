@@ -180,16 +180,6 @@ a {
   padding: 30px 30px 0 30px;
 }
 
-@keyframes para {
-  0% {
-    color: var(--primary-color);
-  }
-
-  100% {
-    color: var(--secondry-color);
-  }
-}
-
 .child2 {
   width: 50%;
   margin: 0 auto;
