@@ -255,9 +255,6 @@ a {
   margin: 1.5rem 0;
   font-size: 1.6rem;
   text-shadow: 1px 1px 1rem rgb(255, 255, 255);
-  animation-duration: 5s;
-  animation-iteration-count: 1;
-  animation-name: para;
 }
 
 .btn {
