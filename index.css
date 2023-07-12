@@ -180,12 +180,6 @@ a {
   padding: 30px 30px 0 30px;
 }
 
-#user-details {
-  color: var(--primary-color);
-  margin: 1.5rem 0;
-  font-size: 1.6rem;
-}
-
 @keyframes para {
   0% {
     color: var(--primary-color);
