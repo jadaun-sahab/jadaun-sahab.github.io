@@ -243,8 +243,6 @@ a {
 }
 
 .child1 h1 {
-  /* color: white; */
-  /* text-shadow: 2px 2px 2px black; */
   font-size: 2.6rem;
   transition: all 1s ease-in-out;
   background: linear-gradient(90deg, #00dbe0, #fc00ff, #38bbf8);
