@@ -26,7 +26,8 @@
     border-bottom-left-radius: 6px;
   }
   .contact-child-2{
-    
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
   }
 
   #more {
