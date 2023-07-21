@@ -121,6 +121,9 @@
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
   }
+  .contact-child-2{
+    
+  }
 }
 
 
