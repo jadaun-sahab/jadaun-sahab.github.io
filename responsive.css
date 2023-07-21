@@ -120,7 +120,7 @@
   }
 
   #contact {
-    width: 66%;
+    width: 75%;
     display: block;
   }
 
@@ -219,6 +219,10 @@
 
   #githubsection {
     width: 80%;
+  }
+  #contact {
+    width: 84%;
+    display: block;
   }
 }
 
