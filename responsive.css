@@ -22,8 +22,11 @@
     display: flex;
   }
   .contact-child-1{
-    border-top-left-radius: 66px;
-    border-bottom-left-radius: 66px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .contact-child-2{
+    
   }
 
   #more {
