@@ -133,12 +133,12 @@
   .contact-child-1{
     padding-top: 1px;
     border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
   }
   .contact-child-2{
     padding-bottom: 34px;
     border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
   }
 }
 
