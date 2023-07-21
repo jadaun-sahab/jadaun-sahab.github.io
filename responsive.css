@@ -21,6 +21,10 @@
     width: 90%;
     display: flex;
   }
+  .contact-child-1{
+    border-top-left-radius: 66px;
+    border-bottom-left-radius: 66px;
+  }
 
   #more {
     text-align: center;
