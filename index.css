@@ -108,6 +108,7 @@ a {
   font-size: 1.4rem;
   font-family: system-ui;
   text-shadow: 1px 1px 1px var(--primary-color);
+  transition: all 0.3s;
 }
 
 #nav-menu ul li a:hover {
