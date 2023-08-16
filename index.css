@@ -395,7 +395,7 @@ a {
   margin: 0 auto;
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 2px 2px 20px rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgb(255, 255, 255);
   background-color: #ecf3ff3b;
   color: var(--primary-color);
 }
@@ -420,11 +420,13 @@ a {
 .project-card img {
   width: 80%;
   transform: scale(0.97);
-  box-shadow: 2px 2px 19px rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px rgb(255, 255, 255), -1px -1px 3px rgb(255, 255, 255);
+  transition: all 0.8s;
 }
 
 .project-card img:hover {
-  transform: scale(1);
+  transform: scale(1.07);
+  object-fit: fill;
   cursor: pointer;
   filter: contrast(10px);
 }
